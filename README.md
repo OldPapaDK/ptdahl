@@ -1,4 +1,4 @@
-# PTDahl · privat adminarbejdsrum 0.6
+# PTDahl · privat adminarbejdsrum 0.7
 
 GitHub: https://github.com/OldPapaDK/ptdahl · Vercel: https://ptdahl.vercel.app/
 
@@ -10,7 +10,7 @@ GitHub: https://github.com/OldPapaDK/ptdahl · Vercel: https://ptdahl.vercel.app
 - Besvarelser, forløb, træningssteder og træningsregistreringer gemmes i et privat arbejdsrum i Neon. Alle læsninger og skrivninger kræver den verificerede ejeridentitet på serveren.
 - Databasens ejer-ID kommer altid fra sessionen og kan ikke angives af browseren. Versionstjek afviser overskrivning fra en forældet fane.
 - Persondata gemmes ikke i sessionStorage eller localStorage. Netværksfejl vises, og browseren advarer ved lukning med ikke gemte ændringer.
-- Generel vidensbank: 152 øvelsesforslag, 38 kilderegistreringer, 52 spørgsmål og 20 principper. Øvelser kræver faglig gennemgang. Egne korte instruktioner og kildehenvisninger; ingen eksterne billeder eller videoer er kopieret.
+- Generel vidensbank: 164 øvelsesforslag, 42 kilderegistreringer, 52 spørgsmål og 20 principper. Øvelser kræver faglig gennemgang. Egne korte instruktioner og kildehenvisninger; ingen eksterne billeder eller videoer er kopieret.
 
 Programbyggeren er stadig en første version med forenklede skabeloner og manuel gennemgang. Der er ingen automatisk fast vægtstigning. Mailinvitation, spørgeskema via personligt link og klientadgang til ét godkendt forløb er endnu ikke bygget. Brugervisningen er indtil da adminens forhåndsvisning. PDF bruger browserens udskriftsfunktion; servergenereret PDF og tekniske illustrationer mangler.
 
@@ -77,3 +77,13 @@ Tidsbudgetsberegninger er estimater. Alle indholdsposter er forslag til gennemga
 Migration 005 tilføjer 30 øvelsesforslag og 13 kilder samt producentreferencer på eksisterende poster. Eksisterende instruktioner, noter og ejerens egne øvelser overskrives ikke. Gentagen kørsel dublerer ikke referencer. Testet på separat gren før main. Ingen private arbejdsrumsdata ændres af migrationen.
 
 Ejeren kan fra en øvelses detalje vælge Tilføj mærke og model. Handlingen tilføjer kun producentmetadata på samme ID, kræver ejeradgang, samme origin og revisionskontrol og ændrer ikke instruktioner. Egenregistreringer er markeret særskilt fra katalogmatch. Demo gør samme handling i hukommelsen.
+
+## Dynamisk opvarmning
+
+Migration 006 tilføjer 12 egne opvarmningsforslag med generelle hospitalskilder og markerer fem eksisterende bevægelser som valgbare kandidater. Ingen billeder eller videoer kopieres. Lange statiske hold indgår ikke automatisk i forberedelsen. Bankens opvarmningsfilter og Opret øvelse kan bruges til at udvide kandidaterne.
+
+Nye kladder får konkrete warmup_items med bevægelse og samlet varighed. Skabelonen begynder med rolig march og vælger dynamiske bevægelser med det tilgængelige udstyr med fokus på dagens hovedbevægelser. Den er et forslag til træneren og ikke en individuel egnethedsvurdering. Ved blokerende screeningssvar vælges ingen automatisk opvarmning; træneren skal sammensætte den manuelt og afklare svarene før godkendelse. En ny kladde med en tom opvarmningsliste kan ikke godkendes.
+
+Tilpas opvarmning giver op til seks bevægelser og tider på 0,5 til 15 minutter pr. trin. Tiden inkluderer begge sider og skift. Ændringer kræver en ny programgodkendelse. Opvarmningen tæller med i sessionens samlede tidsbudget; længere opvarmning kan kræve reduktion af hoveddelen. Lettere indkøringssæt og eventuel yderligere pulsstigning aftales individuelt.
+
+Workoutvisning gennemgår hver opvarmningsbevægelse før hoveddelen og kan fortsættes efter pause. PDF/udskriftsvisningen viser også bevægelserne. Der er ingen automatisk timer. Allerede gemte forløb får ikke automatisk ændret opvarmning; træneren kan tilpasse den som ny kladde.

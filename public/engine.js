@@ -1,3 +1,4 @@
+import { chooseWarmup,warmupMinutes } from './warmup.js';
 // Coaching draft engine. No diagnoses, auto-progression, known-safe claims or guessed kilos.
 export const uuid=()=>typeof crypto.randomUUID==='function'?crypto.randomUUID():Array.from(crypto.getRandomValues(new Uint8Array(16)),n=>n.toString(16).padStart(2,'0')).join('');
 import { gear, available } from './equipment.js';
@@ -27,7 +28,7 @@ const strengthA=['E003','E015','E021','E009','E014'];
 const strengthB=['E008','E016','E020','E010','E027'];
 const hyrox=['E033','E041','E042','E031','E045','E046'];
 export function estimateSeconds(item){if(item.duration_min)return item.duration_min*60;return item.sets*((item.reps??8)*4*(item.per_side?2:1))+(item.sets-1)*item.rest_sec+45;}
-export function validateSession(session,exercises,inventory){const errors=[];if(!session.items.length)errors.push('Der mangler øvelser.');for(const item of session.items){const e=exercises.find(e=>e.id===item.exercise_id);if(!e||!available(e,inventory))errors.push('Udstyr mangler til '+(e?.name_da??item.exercise_id));}if(session.total_seconds>session.budget_min*60)errors.push('Træningstiden overstiger den aftalte tid.');return errors;}
+export function validateSession(session,exercises,inventory){const errors=[];if(!session.items.length)errors.push('Der mangler øvelser.');for(const item of [...(session.warmup_items||[]),...session.items]){const e=exercises.find(e=>e.id===item.exercise_id);if(!e||!available(e,inventory))errors.push('Udstyr mangler til '+(e?.name_da??item.exercise_id));}if((session.warmup_items||[]).some(x=>!Number.isFinite(x.duration_min)||x.duration_min<=0))errors.push('Ugyldig varighed i opvarmningen.');if(session.warmup_items?.length&&warmupMinutes(session.warmup_items)!==session.warmup_min)errors.push('Opvarmningens tid stemmer ikke.');if(session.total_seconds>session.budget_min*60)errors.push('Træningstiden overstiger den aftalte tid.');return errors;}
 export function makeDraft(a,exercises,inventory){
  const goal=a.primary_goal||'Bedre form';const days=Math.max(1,Math.min(6,Number(a.days_per_week)||3));const minutes=Number(a.minutes)||40;
  if(minutes<15||minutes>120)throw Error('Vælg mellem 15 og 120 minutter i denne demo.');
@@ -42,7 +43,7 @@ export function makeDraft(a,exercises,inventory){
    if(!picked.some(x=>x.id===e.id))picked.push(e);
   }
   if(!picked.length)throw Error('Der er ikke nok egnede øvelser med det valgte udstyr. Tilpas sted eller vælg øvelser manuelt.');
-  const warmup=5;let remaining=minutes*60-warmup*60;const items=[];
+  let warmup=6;let remaining=minutes*60-warmup*60;const items=[];
   for(const e of picked){const endurance=['kardio','loeb'].includes(e.category)||e.movement_pattern==='erg';let item;
    if(e.category==='mobilitet'||e.category==='balance'){item={exercise_id:e.id,duration_min:2,sets:null,reps:null,rest_sec:0,load_kg:null,effort:'Rolige bevægelser med passende støtte. Omfang og bevægeudslag aftales med træneren.'};}
    else if(endurance){item={exercise_id:e.id,duration_min:isCardio?Math.min(25,Math.floor(remaining/60)):5,sets:null,reps:null,rest_sec:0,load_kg:null,effort:'Roligt tempo. Du skal kunne tale i hele sætninger.'};if(item.duration_min<3)continue;}
@@ -51,10 +52,12 @@ export function makeDraft(a,exercises,inventory){
    const sec=estimateSeconds(item);if(sec<=remaining){items.push(item);remaining-=sec;}
    if(isCardio&&items.length)break;
   }
+  const warmup_items=chooseWarmup(items,exercises,inventory,screenAnswers(a).some(f=>f.blocking));
+  if(warmup_items.length)warmup=warmupMinutes(warmup_items);
   const total_seconds=warmup*60+items.reduce((s,x)=>s+estimateSeconds(x),0);
-  const session={id:'day-'+day,title:goal==='Mobilitet'?'Mobilitet og ro':goal==='Hverdagsfunktion'?'Bevægelse i hverdagen':isCardio?'Kondition og overskud':goal==='HYROX'&&day%3===1?'HYROX byggesten':day%2?'Styrke · B':'Styrke · A',warmup_min:warmup,items,budget_min:minutes,total_seconds,substitutions:substitutionsUsed.filter(s=>items.some(x=>x.exercise_id===s.to))};
+  const session={id:'day-'+day,title:goal==='Mobilitet'?'Mobilitet og ro':goal==='Hverdagsfunktion'?'Bevægelse i hverdagen':isCardio?'Kondition og overskud':goal==='HYROX'&&day%3===1?'HYROX byggesten':day%2?'Styrke · B':'Styrke · A',warmup_min:warmup,warmup_items,items,budget_min:minutes,total_seconds,substitutions:substitutionsUsed.filter(s=>items.some(x=>x.exercise_id===s.to))};
   const errs=validateSession(session,exercises,inventory);if(errs.length)throw Error(errs.join(' '));sessions.push(session);
  }
  return {id:uuid(),version:1,status:'draft',name:a.name||'Ny demoperson',goal,days,minutes,inventory:[...inventory],created_at:new Date().toISOString(),flags:screenAnswers(a),sessions,weeks:Array.from({length:12},(_,i)=>({number:i+1,phase:i<4?'Fundament':i<8?'Opfølgning':'Konsolidering',checkpoint:[4,8,12].includes(i+1),session_ids:sessions.map(s=>s.id),progression:'Ingen automatisk stigning. Ændres efter trænerens vurdering af personens udvikling.'})),acknowledged:false};
 }
-export function canApprove(p){return p?.status==='draft'&&p.acknowledged===true&&p.flags.every(f=>f.resolved===true);}
+export function canApprove(p){return p?.status==='draft'&&p.acknowledged===true&&p.flags.every(f=>f.resolved===true)&&p.sessions.every(s=>!Array.isArray(s.warmup_items)||s.warmup_items.length>0);}

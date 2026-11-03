@@ -378,5 +378,45 @@
     "checked_at": "2026-11-03",
     "access_status": "catalogue_retrieved",
     "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S38",
+    "title": "NHS: opvarmning før træning",
+    "url": "https://www.nhs.uk/live-well/exercise/how-to-warm-up-before-exercising/",
+    "type": "public_health_or_hospital",
+    "summary": "Generelle eksempler på gradvis opvarmning og kontrollerede dynamiske bevægelser. Egne korte instruktioner; individuel varighed, egnethed og bevægeudslag kræver gennemgang.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S39",
+    "title": "Newcastle Hospitals: opvarmning og dynamiske bevægelser",
+    "url": "https://www.newcastle-hospitals.nhs.uk/services/newcastle-occupational-health-service/information-for-staff/physiotherapy/self-help-leaflets/exercise-and-your-health-a-guide-to-getting-started/",
+    "type": "public_health_or_hospital",
+    "summary": "Generelle eksempler på gradvis opvarmning og kontrollerede dynamiske bevægelser. Egne korte instruktioner; individuel varighed, egnethed og bevægeudslag kræver gennemgang.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S40",
+    "title": "HSS: statisk og dynamisk bevægelighed",
+    "url": "https://myhssmedia.hss.edu/health-library/move-better/static-dynamic-stretching",
+    "type": "public_health_or_hospital",
+    "summary": "Generelle eksempler på gradvis opvarmning og kontrollerede dynamiske bevægelser. Egne korte instruktioner; individuel varighed, egnethed og bevægeudslag kræver gennemgang.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S41",
+    "title": "HSS: dynamiske bevægelser før aktivitet",
+    "url": "https://www.hss.edu/health-library/move-better/how-to-increase-flexibility",
+    "type": "public_health_or_hospital",
+    "summary": "Generelle eksempler på gradvis opvarmning og kontrollerede dynamiske bevægelser. Egne korte instruktioner; individuel varighed, egnethed og bevægeudslag kræver gennemgang.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
   }
 ]

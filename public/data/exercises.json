@@ -66,7 +66,9 @@
     "default_load_kg": null,
     "media": null,
     "media_license": null,
-    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering.",
+    "warmup_eligible": true,
+    "warmup_focus": "lower"
   },
   {
     "id": "E004",
@@ -281,7 +283,9 @@
     "default_load_kg": null,
     "media": null,
     "media_license": null,
-    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering.",
+    "warmup_eligible": true,
+    "warmup_focus": "lower"
   },
   {
     "id": "E011",
@@ -1487,7 +1491,9 @@
     "default_load_kg": null,
     "media": null,
     "media_license": null,
-    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering.",
+    "warmup_eligible": true,
+    "warmup_focus": "lower"
   },
   {
     "id": "E050",
@@ -1508,7 +1514,9 @@
     "default_load_kg": null,
     "media": null,
     "media_license": null,
-    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering.",
+    "warmup_eligible": true,
+    "warmup_focus": "upper"
   },
   {
     "id": "E051",
@@ -2457,7 +2465,9 @@
     "default_load_kg": null,
     "media": null,
     "media_license": null,
-    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke.",
+    "warmup_eligible": true,
+    "warmup_focus": "upper"
   },
   {
     "id": "E091",
@@ -5335,5 +5345,301 @@
         "checked_at": "2026-11-03"
       }
     ]
+  },
+  {
+    "id": "E153",
+    "name_da": "Rolig march på stedet",
+    "category": "mobilitet",
+    "movement_pattern": "march",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "begynder",
+    "instruction_da": "Begynd med små rolige skridt på stedet. Bevæg armene naturligt og øg tempoet gradvist efter aftale.",
+    "source_ids": [
+      "S38"
+    ],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "full_body",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
+  },
+  {
+    "id": "E154",
+    "name_da": "Skiftevis hælisæt frem",
+    "category": "mobilitet",
+    "movement_pattern": "ankle",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "begynder",
+    "instruction_da": "Sæt skiftevis hælen let frem med tæerne løftet. Hold rolig balance og tilpas skridtlængden.",
+    "source_ids": [
+      "S38"
+    ],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "lower",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
+  },
+  {
+    "id": "E155",
+    "name_da": "Rolige knæløft",
+    "category": "mobilitet",
+    "movement_pattern": "march",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "begynder",
+    "instruction_da": "Løft knæene skiftevis i behagelig højde. Brug et tempo og en støtte, der passer til personen.",
+    "source_ids": [
+      "S38"
+    ],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "lower",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
+  },
+  {
+    "id": "E156",
+    "name_da": "Skulderrulninger",
+    "category": "mobilitet",
+    "movement_pattern": "shoulder",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "begynder",
+    "instruction_da": "Lad armene hænge afslappet. Rul skuldrene roligt frem og tilbage uden at presse bevægelsen.",
+    "source_ids": [
+      "S38"
+    ],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "upper",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
+  },
+  {
+    "id": "E157",
+    "name_da": "Kontrollerede armcirkler",
+    "category": "mobilitet",
+    "movement_pattern": "shoulder",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "begynder",
+    "instruction_da": "Tegn små cirkler med armene og øg kun bevægelsen, hvis den føles behagelig. Skift retning roligt.",
+    "source_ids": [
+      "S39"
+    ],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "upper",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
+  },
+  {
+    "id": "E158",
+    "name_da": "Bensving frem og tilbage med støtte",
+    "category": "mobilitet",
+    "movement_pattern": "hip_extension",
+    "required_equipment": [
+      "stol"
+    ],
+    "level": "begynder",
+    "instruction_da": "Hold ved stabil støtte. Sving et ben roligt frem og tilbage i et lille aftalt bevægeudslag. Gentag på begge sider.",
+    "source_ids": [
+      "S40"
+    ],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "lower",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
+  },
+  {
+    "id": "E159",
+    "name_da": "Rolig hofteåbner med støtte",
+    "category": "mobilitet",
+    "movement_pattern": "hip_rotation",
+    "required_equipment": [
+      "stol"
+    ],
+    "level": "begynder",
+    "instruction_da": "Hold ved stabil støtte. Løft et knæ lidt og før det roligt udad og tilbage. Skift side.",
+    "source_ids": [
+      "S41"
+    ],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "lower",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
+  },
+  {
+    "id": "E160",
+    "name_da": "Stående kontrolleret overkropsrotation",
+    "category": "mobilitet",
+    "movement_pattern": "core_rotation",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "begynder",
+    "instruction_da": "Stå stabilt og drej overkroppen roligt fra side til side i aftalt bevægeudslag. Undgå at rykke.",
+    "source_ids": [
+      "S40"
+    ],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "upper",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
+  },
+  {
+    "id": "E161",
+    "name_da": "Ankelcirkler siddende",
+    "category": "mobilitet",
+    "movement_pattern": "ankle",
+    "required_equipment": [
+      "stol"
+    ],
+    "level": "begynder",
+    "instruction_da": "Sid på en stabil stol og løft foden let. Tegn rolige cirkler med anklen i begge retninger. Skift fod.",
+    "source_ids": [],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "lower",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
+  },
+  {
+    "id": "E162",
+    "name_da": "Bensving til siden med støtte",
+    "category": "mobilitet",
+    "movement_pattern": "hip_abduction",
+    "required_equipment": [
+      "stol"
+    ],
+    "level": "begynder",
+    "instruction_da": "Hold ved stabil støtte. Før benet roligt lidt til siden og tilbage uden at læne overkroppen. Skift side.",
+    "source_ids": [],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "lower",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
+  },
+  {
+    "id": "E163",
+    "name_da": "Rolige hælløft mod baglår",
+    "category": "mobilitet",
+    "movement_pattern": "knee_flexion",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "begynder",
+    "instruction_da": "Bøj skiftevis knæene og før hælen roligt bagud. Tilpas bevægelse og balance til personen.",
+    "source_ids": [
+      "S41"
+    ],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "lower",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
+  },
+  {
+    "id": "E164",
+    "name_da": "Kontrolleret gang med benløft",
+    "category": "mobilitet",
+    "movement_pattern": "hip_flexion",
+    "required_equipment": [
+      "sikker_rute"
+    ],
+    "level": "begynder",
+    "instruction_da": "Gå med små skridt og løft skiftevis benet frem i en behagelig højde. Undgå at tvinge bevægeudslaget.",
+    "source_ids": [
+      "S41"
+    ],
+    "provenance": "original_dynamic_warmup_candidate",
+    "review_status": "needs_coach_review",
+    "warmup_eligible": true,
+    "warmup_focus": "lower",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Dynamisk forberedelse i individuelt aftalt omfang. Ingen lange statiske hold. Ikke automatisk egnet ved smerter, skade eller begrænsninger. Ved øvelser pr. side er den planlagte tid samlet for begge sider."
   }
 ]
