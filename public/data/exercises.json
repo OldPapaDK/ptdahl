@@ -2428,5 +2428,335 @@
     "media": null,
     "media_license": null,
     "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E108",
+    "name_da": "Benstræk i maskine",
+    "category": "styrke",
+    "movement_pattern": "knee_extension",
+    "required_equipment": [
+      "benstraekmaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Indstil sæde og pude. Stræk knæene roligt inden for aftalt bevægeudslag.",
+    "source_ids": [
+      "S19"
+    ],
+    "provenance": "manufacturer_reference_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E109",
+    "name_da": "Hack squat i maskine",
+    "category": "styrke",
+    "movement_pattern": "squat",
+    "required_equipment": [
+      "hacksquat"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Få instruktion i sikkerhedsstoppene. Bøj og stræk benene med kontrolleret bevægelse.",
+    "source_ids": [
+      "S19"
+    ],
+    "provenance": "manufacturer_reference_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E110",
+    "name_da": "Brystflyes i pec deck",
+    "category": "styrke",
+    "movement_pattern": "horizontal_push",
+    "required_equipment": [
+      "pecdeck"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Tilpas sæde og startposition. Før armene sammen og tilbage i et behageligt bevægeudslag.",
+    "source_ids": [
+      "S20"
+    ],
+    "provenance": "manufacturer_reference_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E111",
+    "name_da": "Omvendte flyes i maskine",
+    "category": "styrke",
+    "movement_pattern": "upper_back_pull",
+    "required_equipment": [
+      "reverseflymaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Tilpas sædet. Før armene ud og bagud med rolig kontrol uden at løfte skuldrene.",
+    "source_ids": [
+      "S20"
+    ],
+    "provenance": "manufacturer_reference_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E112",
+    "name_da": "Hip thrust i maskine",
+    "category": "styrke",
+    "movement_pattern": "hip_extension",
+    "required_equipment": [
+      "hipthrustmaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Tilpas støtte og sikkerhedslås med en instruktør. Løft hoften kontrolleret uden at overstrække lænden.",
+    "source_ids": [
+      "S21"
+    ],
+    "provenance": "manufacturer_reference_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E113",
+    "name_da": "Hofteabduktion i maskine",
+    "category": "styrke",
+    "movement_pattern": "hip_abduction",
+    "required_equipment": [
+      "abduktormaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Tilpas sæde, puder og startvinkel. Før benene udad og kontroller tilbageføringen.",
+    "source_ids": [
+      "S22"
+    ],
+    "provenance": "manufacturer_reference_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E114",
+    "name_da": "Hofteadduktion i maskine",
+    "category": "styrke",
+    "movement_pattern": "hip_adduction",
+    "required_equipment": [
+      "adduktormaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Tilpas sæde og en behagelig startbredde. Før benene indad og roligt tilbage.",
+    "source_ids": [
+      "S22"
+    ],
+    "provenance": "manufacturer_reference_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E115",
+    "name_da": "Siddende roning i styrkemaskine",
+    "category": "styrke",
+    "movement_pattern": "horizontal_pull",
+    "required_equipment": [
+      "siddenderomaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Tilpas bryststøtte og sæde. Træk håndtagene tilbage uden at svinge kroppen.",
+    "source_ids": [],
+    "provenance": "editorial_machine_candidate_pending_source",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E116",
+    "name_da": "Sidehævning i maskine",
+    "category": "styrke",
+    "movement_pattern": "shoulder",
+    "required_equipment": [
+      "sidehaevningsmaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Tilpas sæde og puder. Løft armene til aftalt højde med afslappede skuldre.",
+    "source_ids": [],
+    "provenance": "editorial_machine_candidate_pending_source",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E117",
+    "name_da": "Bicepscurl i maskine",
+    "category": "styrke",
+    "movement_pattern": "elbow_flexion",
+    "required_equipment": [
+      "bicepsmaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Tilpas armstøtten. Bøj albuerne kontrolleret og sænk langsomt uden at løfte skuldrene.",
+    "source_ids": [],
+    "provenance": "editorial_machine_candidate_pending_source",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E118",
+    "name_da": "Læghævning i maskine",
+    "category": "styrke",
+    "movement_pattern": "calf",
+    "required_equipment": [
+      "laegmaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Tilpas støtte og fodstilling. Løft hælene og sænk kontrolleret i aftalt bevægeudslag.",
+    "source_ids": [],
+    "provenance": "editorial_machine_candidate_pending_source",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E119",
+    "name_da": "Mavebøjning i maskine",
+    "category": "styrke",
+    "movement_pattern": "trunk_flexion",
+    "required_equipment": [
+      "mavemaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Tilpas sæde og puder. Bevæg overkroppen kontrolleret efter instruktion i den konkrete maskine.",
+    "source_ids": [],
+    "provenance": "editorial_machine_candidate_pending_source",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E120",
+    "name_da": "Rygstræk i maskine",
+    "category": "styrke",
+    "movement_pattern": "hip_extension",
+    "required_equipment": [
+      "rygstraekkermaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Få konkret instruktion i maskinens akse og støtte. Bevæg kontrolleret uden overstræk.",
+    "source_ids": [],
+    "provenance": "editorial_machine_candidate_pending_source",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E121",
+    "name_da": "Squat i Smith maskine",
+    "category": "styrke",
+    "movement_pattern": "squat",
+    "required_equipment": [
+      "smithmaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Få instruktion i låse og sikkerhedsstop. Tilpas fodstilling og dybde til personen.",
+    "source_ids": [],
+    "provenance": "editorial_machine_candidate_pending_source",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
+  },
+  {
+    "id": "E122",
+    "name_da": "Brystpres i Smith maskine",
+    "category": "styrke",
+    "movement_pattern": "horizontal_push",
+    "required_equipment": [
+      "smithmaskine",
+      "baenk"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Brug stabil bænk og indstillede sikkerhedsstop. Pres og sænk kontrolleret med instruktørhjælp.",
+    "source_ids": [],
+    "provenance": "editorial_machine_candidate_pending_source",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Generisk maskinøvelse. Mærke, model og lokal tilgængelighed skal bekræftes. Ikke en godkendelse ved skade."
   }
 ]

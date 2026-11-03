@@ -1,4 +1,4 @@
-# PTDahl · privat adminarbejdsrum 0.4
+# PTDahl · privat adminarbejdsrum 0.5
 
 GitHub: https://github.com/OldPapaDK/ptdahl · Vercel: https://ptdahl.vercel.app/
 
@@ -10,9 +10,21 @@ GitHub: https://github.com/OldPapaDK/ptdahl · Vercel: https://ptdahl.vercel.app
 - Besvarelser, forløb, træningssteder og træningsregistreringer gemmes i et privat arbejdsrum i Neon. Alle læsninger og skrivninger kræver den verificerede ejeridentitet på serveren.
 - Databasens ejer-ID kommer altid fra sessionen og kan ikke angives af browseren. Versionstjek afviser overskrivning fra en forældet fane.
 - Persondata gemmes ikke i sessionStorage eller localStorage. Netværksfejl vises, og browseren advarer ved lukning med ikke gemte ændringer.
-- Generel vidensbank: 107 øvelsesforslag, 19 kilderegistreringer, 52 spørgsmål og 20 principper. Øvelser kræver faglig gennemgang. Egne korte instruktioner og kildehenvisninger; ingen eksterne billeder eller videoer er kopieret.
+- Generel vidensbank: 122 øvelsesforslag, 25 kilderegistreringer, 52 spørgsmål og 20 principper. Øvelser kræver faglig gennemgang. Egne korte instruktioner og kildehenvisninger; ingen eksterne billeder eller videoer er kopieret.
 
 Programbyggeren er stadig en første version med forenklede skabeloner og manuel gennemgang. Der er ingen automatisk fast vægtstigning. Mailinvitation, spørgeskema via personligt link og klientadgang til ét godkendt forløb er endnu ikke bygget. Brugervisningen er indtil da adminens forhåndsvisning. PDF bruger browserens udskriftsfunktion; servergenereret PDF og tekniske illustrationer mangler.
+
+## Demo og udbygning af øvelsesbank
+
+`/demo` er tilgængelig fra login og admin. Den starter uden kontooprettelse med tre fiktive personer, særskilte eksempelsteder og et godkendt forløb. Den indlæser kun den generelle vidensbank. Ingen private sessioner, klientlister eller arbejdsrumsdata hentes, og alle demoændringer ligger kun i sidens hukommelse. Genindlæsning nulstiller demoen. Gem, øvelsesoprettelse og sletning i demoen kalder ikke de rigtige mutationsendpoints. PDF kan gemmes lokalt fra en træningsforhåndsvisning. Der sendes ingen invitationer i demoen.
+
+Ejeren kan under Øvelsesbank vælge Opret øvelse eller bruge en eksisterende øvelse som skabelon til en ny variant. Begge dele opretter et nyt ID; eksisterende øvelser og programhenvisninger ændres ikke. Instruktion, kategori, niveau, nødvendigt udstyr, maskinmærke, model, kildelink, faglige noter og gennemgangsstatus kan angives. Bankdata er generel offentlig viden, så klientoplysninger må aldrig skrives her. Billedupload og direkte overskrivning af eksisterende øvelser er endnu ikke tilføjet. Ingen faste kilo eller træningsmængder angives i banken.
+
+`/api/exercises` kræver verificeret ejer ved både læsning og oprettelse; oprettelse kræver også samme origin. Serveren vælger ID, validerer udstyr og https kildelink og fastholder medical_clearance_claim=false. Den offentlige bank kan være op til 60 sekunder forsinket efter en ny øvelse. Admin henter de aktuelle øvelser uden cache ved indlæsning.
+
+Træningssteder har knappen Ground afdelinger med særskilte lister for Odense Thriges Plads, Odense Grønløkkevej, Kolding og Fredericia. Alle starter uden afkrydset udstyr, indtil ejeren bekræfter det lokalt. Grounds websider nævner mærker og områder, men ikke en komplet, verificeret maskinliste. De 15 nye maskinøvelser er generiske kandidater, og flere af dem mangler endnu en individuel kilde. Der påstås ikke fuld dækning af Ground. Lårcurl og crosstrainer er nu også valgbare udstyrstyper; alle eksisterende øvelseskrav har en udstyrsmapping.
+
+Migration 004 tilføjer en revisionskolonne og generelle kilde- og øvelsesposter. Den skal køres på testgren først, derefter main. ON CONFLICT DO NOTHING bevarer eksisterende bankdata.
 
 ## Klientadministration og sletning
 

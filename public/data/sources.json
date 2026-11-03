@@ -188,5 +188,65 @@
     "checked_at": "2026-11-03",
     "access_status": "retrieved_index_only_for_S18",
     "license_status": "reference_only_original_instructions_no_media_copied"
+  },
+  {
+    "id": "S19",
+    "title": "Panatta: maskinkatalog",
+    "url": "https://www.panattasport.com/en/catalog/page/19/",
+    "type": "equipment_manufacturer",
+    "summary": "Producentoversigt over maskintyper. Bekræfter ikke beholdningen i et Ground center.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S20",
+    "title": "Panatta: Peck Back",
+    "url": "https://www.panattasport.com/en/sec/peck-back-3/",
+    "type": "equipment_manufacturer",
+    "summary": "Brystflyes og omvendte flyes på en kombinationsmaskine.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S21",
+    "title": "Panatta: Hip Thrust",
+    "url": "https://panattasport.com/en/fit-evo/hip-thrust",
+    "type": "equipment_manufacturer",
+    "summary": "Maskine til hofteekstension.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S22",
+    "title": "Panatta: Adductor Abductor",
+    "url": "https://www.panattasport.com/en/monolith/adductor-abductor-machine-2/",
+    "type": "equipment_manufacturer",
+    "summary": "Maskine med indadføring og udadføring af benene.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S23",
+    "title": "GROUND Thriges Plads: faciliteter",
+    "url": "https://ground.dk/odense-thriges-plads/",
+    "type": "training_location",
+    "summary": "Afdelingssiden angiver Panatta, Eleiko og Concept2. Ingen komplet maskinliste offentliggjort.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S24",
+    "title": "GROUND Grønløkkevej: faciliteter",
+    "url": "https://ground.dk/odense-groenloekkevej/",
+    "type": "training_location",
+    "summary": "Afdelingssiden angiver Panatta, Precor og Concept2. Ingen komplet maskinliste offentliggjort.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
   }
 ]
