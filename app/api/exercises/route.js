@@ -15,10 +15,22 @@ async function write(request){
   const raw=await request.text();if(raw.length>16000)return fail('Øvelsen er for stor.',413);
   let body;try{body=JSON.parse(raw);}catch{return fail('Ugyldige data.',400);}
   if(!body||typeof body!=='object')return fail('Ugyldige data.',400);
+  if(body.action==='add-machine-reference')return await addReference(body);
   const sql=neon(process.env.DATABASE_URL),existing={},id='X'+randomUUID().replaceAll('-','');
   let data;try{data={...exerciseInput(body,existing),id};}catch(e){return fail(e.message,400);}
   const rows=await sql`INSERT INTO training_knowledge.exercises (id,data,revision) VALUES (${id},${JSON.stringify(data)}::jsonb,1) RETURNING revision`;
   if(!rows.length)return fail('Øvelsen er ændret i en anden fane. Genindlæs banken først.',409);
   return Response.json({exercise:{...data,revision:rows[0].revision}},{status:201,headers});
  }catch{return fail('Øvelsen kunne ikke gemmes. Prøv igen.',503);}
+}
+
+async function addReference(body){
+ const clean=k=>String(body[k]||'').trim().slice(0,150);
+ if(typeof body.id!=='string'||!Number.isInteger(body.revision)||!clean('brand')||!clean('model'))return fail('Angiv øvelse, mærke, model og den aktuelle version.',400);
+ const url=String(body.url||'').trim().slice(0,500);if(url){try{if(new URL(url).protocol!=='https:')throw Error();}catch{return fail('Kildelink skal bruge https.',400);}}
+ const reference={brand:clean('brand'),series:clean('series'),model:clean('model'),url,match_status:'coach_recorded_verify_local_setup',checked_at:new Date().toISOString().slice(0,10)};
+ const sql=neon(process.env.DATABASE_URL);
+ const rows=await sql`UPDATE training_knowledge.exercises SET data=jsonb_set(data,'{machine_references}',COALESCE(data->'machine_references','[]'::jsonb)||${JSON.stringify([reference])}::jsonb),revision=revision+1 WHERE id=${body.id} AND revision=${body.revision} RETURNING data,revision`;
+ if(!rows.length)return fail('Øvelsen er ændret i en anden fane. Genindlæs banken og prøv igen.',409);
+ return Response.json({exercise:{...rows[0].data,revision:rows[0].revision}},{headers});
 }

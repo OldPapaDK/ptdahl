@@ -1,4 +1,4 @@
-# PTDahl · privat adminarbejdsrum 0.5
+# PTDahl · privat adminarbejdsrum 0.6
 
 GitHub: https://github.com/OldPapaDK/ptdahl · Vercel: https://ptdahl.vercel.app/
 
@@ -10,7 +10,7 @@ GitHub: https://github.com/OldPapaDK/ptdahl · Vercel: https://ptdahl.vercel.app
 - Besvarelser, forløb, træningssteder og træningsregistreringer gemmes i et privat arbejdsrum i Neon. Alle læsninger og skrivninger kræver den verificerede ejeridentitet på serveren.
 - Databasens ejer-ID kommer altid fra sessionen og kan ikke angives af browseren. Versionstjek afviser overskrivning fra en forældet fane.
 - Persondata gemmes ikke i sessionStorage eller localStorage. Netværksfejl vises, og browseren advarer ved lukning med ikke gemte ændringer.
-- Generel vidensbank: 122 øvelsesforslag, 25 kilderegistreringer, 52 spørgsmål og 20 principper. Øvelser kræver faglig gennemgang. Egne korte instruktioner og kildehenvisninger; ingen eksterne billeder eller videoer er kopieret.
+- Generel vidensbank: 152 øvelsesforslag, 38 kilderegistreringer, 52 spørgsmål og 20 principper. Øvelser kræver faglig gennemgang. Egne korte instruktioner og kildehenvisninger; ingen eksterne billeder eller videoer er kopieret.
 
 Programbyggeren er stadig en første version med forenklede skabeloner og manuel gennemgang. Der er ingen automatisk fast vægtstigning. Mailinvitation, spørgeskema via personligt link og klientadgang til ét godkendt forløb er endnu ikke bygget. Brugervisningen er indtil da adminens forhåndsvisning. PDF bruger browserens udskriftsfunktion; servergenereret PDF og tekniske illustrationer mangler.
 
@@ -22,7 +22,9 @@ Ejeren kan under Øvelsesbank vælge Opret øvelse eller bruge en eksisterende �
 
 `/api/exercises` kræver verificeret ejer ved både læsning og oprettelse; oprettelse kræver også samme origin. Serveren vælger ID, validerer udstyr og https kildelink og fastholder medical_clearance_claim=false. Den offentlige bank kan være op til 60 sekunder forsinket efter en ny øvelse. Admin henter de aktuelle øvelser uden cache ved indlæsning.
 
-Træningssteder har knappen Ground afdelinger med særskilte lister for Odense Thriges Plads, Odense Grønløkkevej, Kolding og Fredericia. Alle starter uden afkrydset udstyr, indtil ejeren bekræfter det lokalt. Grounds websider nævner mærker og områder, men ikke en komplet, verificeret maskinliste. De 15 nye maskinøvelser er generiske kandidater, og flere af dem mangler endnu en individuel kilde. Der påstås ikke fuld dækning af Ground. Lårcurl og crosstrainer er nu også valgbare udstyrstyper; alle eksisterende øvelseskrav har en udstyrsmapping.
+Øvelsesbanken har nu filtre for mærke og udstyr samt søgning på serie og model. Maskineksempler er knyttet til generiske bevægelser på tværs af BH Fitness/MOVEMIA, Technogym, Life Fitness og Matrix Fitness. Der er 195 katalogkoblinger fordelt på nye og eksisterende øvelser; flere koblinger kan referere til samme maskine med flere funktioner. Katalogmatch dokumenterer navne og tilsigtede bevægelser, ikke en klinisk godkendelse eller automatisk kompatibilitet for enhver variant. Kilo omregnes ikke mellem modeller. Instruktionerne er egne korte forslag til trænergennemgang; billeder og manualer kopieres ikke.
+
+Ground genvejen er fjernet. Træningssteder oprettes frit med deres konkrete udstyr. Eventuelle allerede gemte private steder slettes ikke af kodeændringen. M170 fra MOVEMIA er ikke tilknyttet en bestemt lårcurlposition, fordi producentens overskrift og siddende beskrivelse er indbyrdes modstridende. Technogym kilderne er hentet hos Technogym Danmark/Pedan; Technogyms globale hjemmeside kunne ikke hentes.
 
 Migration 004 tilføjer en revisionskolonne og generelle kilde- og øvelsesposter. Den skal køres på testgren først, derefter main. ON CONFLICT DO NOTHING bevarer eksisterende bankdata.
 
@@ -71,3 +73,7 @@ Migrationer skal først køres og kontrolleres på en separat Neon testgren og d
 Test dækker ejerkontrol med verificeret mail, afvisning af anden konto, afvisning af fremmede origins, ugyldige arbejdsrumsdata, udstyrsmatch, tidsbudgetter, godkendelsesblokering, målrettet mobilitetsskabelon og manglende databaseforbindelse.
 
 Tidsbudgetsberegninger er estimater. Alle indholdsposter er forslag til gennemgang og ikke en klinisk vurdering eller automatisk egnethedsgodkendelse. Adgangskontrollen er implementeret; ejerens første kontooprettelse og mailbekræftelse kan først fuldt kontrolleres, når ejeren selv udfører dem. Passwordgendannelse er implementeret men ikke gennemført med ejerens konto under opbygningen.
+
+Migration 005 tilføjer 30 øvelsesforslag og 13 kilder samt producentreferencer på eksisterende poster. Eksisterende instruktioner, noter og ejerens egne øvelser overskrives ikke. Gentagen kørsel dublerer ikke referencer. Testet på separat gren før main. Ingen private arbejdsrumsdata ændres af migrationen.
+
+Ejeren kan fra en øvelses detalje vælge Tilføj mærke og model. Handlingen tilføjer kun producentmetadata på samme ID, kræver ejeradgang, samme origin og revisionskontrol og ændrer ikke instruktioner. Egenregistreringer er markeret særskilt fra katalogmatch. Demo gør samme handling i hukommelsen.

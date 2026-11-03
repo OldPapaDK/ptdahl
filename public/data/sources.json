@@ -248,5 +248,135 @@
     "checked_at": "2026-11-03",
     "access_status": "retrieved",
     "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S25",
+    "title": "BH Fitness: MOVEMIA",
+    "url": "https://bh.fitness/en/equipments/strength/movemia-strength/",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S26",
+    "title": "Technogym Danmark: Selection",
+    "url": "https://www.pedan.dk/produkt-kategori/produktlinje/selection/",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S27",
+    "title": "Technogym Danmark: Selection side 2",
+    "url": "https://www.pedan.dk/produkt-kategori/produktlinje/selection/page/2/",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S28",
+    "title": "Technogym Danmark: Selection side 3",
+    "url": "https://www.pedan.dk/produkt-kategori/produktlinje/selection/page/3/",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S29",
+    "title": "Technogym Danmark: Selection side 4",
+    "url": "https://www.pedan.dk/produkt-kategori/produktlinje/selection/page/4/",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S30",
+    "title": "Technogym Danmark: Pure",
+    "url": "https://www.pedan.dk/product-line/pure-strenght/",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S31",
+    "title": "Life Fitness: Insignia",
+    "url": "https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S32",
+    "title": "Life Fitness: Axiom",
+    "url": "https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/axiom-series",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S33",
+    "title": "Matrix: Aura katalog",
+    "url": "https://world.matrixfitness.com/eng/strength/catalog",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S34",
+    "title": "Matrix: Ultra CPO katalog",
+    "url": "https://cpo.matrixfitness.com/products/strength/ultra/",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S35",
+    "title": "Matrix: Aura CPO katalog",
+    "url": "https://cpo.matrixfitness.com/products/strength/aura/",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S36",
+    "title": "Matrix: Magnum Belt Squat",
+    "url": "https://au.matrixfitness.com/eng/learning/post/reimagining-leg-day-from-the-ground-up",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
+  },
+  {
+    "id": "S37",
+    "title": "Life Fitness: produktkatalog og kardio",
+    "url": "https://www.lifefitness.com/en-eu/catalog",
+    "type": "equipment_manufacturer_or_official_representative",
+    "summary": "Modelnavne og maskintyper fra producent eller officiel dansk repræsentant. Ingen automatisk modelkompatibilitet, dosering eller klinisk godkendelse.",
+    "checked_at": "2026-11-03",
+    "access_status": "catalogue_retrieved",
+    "license_status": "facts_links_and_original_instructions_only"
   }
 ]
