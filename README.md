@@ -1,4 +1,4 @@
-# PTDahl · privat adminarbejdsrum 0.3
+# PTDahl · privat adminarbejdsrum 0.4
 
 GitHub: https://github.com/OldPapaDK/ptdahl · Vercel: https://ptdahl.vercel.app/
 
@@ -13,6 +13,16 @@ GitHub: https://github.com/OldPapaDK/ptdahl · Vercel: https://ptdahl.vercel.app
 - Generel vidensbank: 107 øvelsesforslag, 19 kilderegistreringer, 52 spørgsmål og 20 principper. Øvelser kræver faglig gennemgang. Egne korte instruktioner og kildehenvisninger; ingen eksterne billeder eller videoer er kopieret.
 
 Programbyggeren er stadig en første version med forenklede skabeloner og manuel gennemgang. Der er ingen automatisk fast vægtstigning. Mailinvitation, spørgeskema via personligt link og klientadgang til ét godkendt forløb er endnu ikke bygget. Brugervisningen er indtil da adminens forhåndsvisning. PDF bruger browserens udskriftsfunktion; servergenereret PDF og tekniske illustrationer mangler.
+
+## Klientadministration og sletning
+
+Klienter samler forløb efter normaliseret mailadresse og viser loginprofiler uden forløb. Et ufærdigt spørgeskema med mailadresse vises også. Ældre forløb uden mail kan slettes enkeltvis. Ejeren vises som beskyttet og kan ikke slettes via applikationen.
+
+Sletning kræver ejerens verificerede session, samme origin, den aktuelle arbejdsrumsrevision og den eksplicitte bekræftelse SLET. Først fjernes alle matchende forløb, deres besvarelser, træningsregistreringer og en matchende igangværende besvarelse i én databaseopdatering. Revisionen hæves, så gamle faner ikke kan genskabe slettede data. Derefter slettes en eventuel loginprofil via Neon Auths officielle admin.removeUser API. Serveren kontrollerer, at profilen er væk, før den melder fuldført. Hvis loginprofilen ikke kunne slettes, vises delvis gennemførelse, og ejeren kan gentage fra oversigten. Ingen manuelle writes til neon_auth.
+
+Ejerens eksisterende Neon Auth bruger skal have den indbyggede adminrolle for at udføre kontosletning. Appens egne rettigheder kræver stadig den verificerede ejeradresse. Den generelle authproxy afviser rå adminruter, selvbetjent kontosletning og mailskift, så appens slettekontrol ikke omgås gennem proxyen.
+
+Fælles træningssteder bevares. Eksterne PDF eksporter og udbyderens sikkerhedskopier slettes ikke af handlingen. Appen lover derfor ikke, at alle kopier overalt er øjeblikkeligt slettet. Der er endnu ingen klientinvitationer eller klientadgang at tilbagekalde. Disse skal knyttes til samme sletteflow, når de tilføjes.
 
 ## Opret ejerkontoen
 
@@ -30,6 +40,7 @@ Kør `npm ci`, `npm test` og `npm run build` med Node.js 24. Bygningen laver en 
 
 - `app/api/auth/[...path]`: SDK'ens serverproxy. Ingen selvimplementeret password eller cookiehåndtering.
 - `app/api/session`: den aktuelle identitet, uden private arbejdsrumsdata.
+- `app/api/clients`: ejerbeskyttet klientoversigt og sletning.
 - `app/api/workspace`: adgangskontrolleret læsning og skrivning af ejerens arbejdsrum.
 - `app/api/knowledge`: skrivebeskyttet offentlig læsning af den generelle vidensbank. Denne route må aldrig udvides med klientoplysninger.
 - `lib/policy.js`: ejerkontrol, origin-kontrol og validering af arbejdsrumsformat.
