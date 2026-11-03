@@ -15,14 +15,14 @@ test('no feasible exercises stops draft generation',()=>{assert.throws(()=>makeD
 test('carry and sled blocks use time rather than repetitions',()=>{const p=makeDraft(answers,ex,[...inv,'sled','sandbag','wallball','ski']);for(const s of p.sessions)for(const x of s.items){const e=ex.find(e=>e.id===x.exercise_id);if(['carry','sled_push','sled_pull'].includes(e.movement_pattern)){assert(x.duration_min>0);assert.equal(x.reps,null);}}});
 test('mobility draft does not turn into a general strength template',()=>{const p=makeDraft({...answers,primary_goal:'Mobilitet'},ex,inv);for(const s of p.sessions)for(const x of s.items)assert.equal(ex.find(e=>e.id===x.exercise_id).category,'mobilitet');});
 test('public knowledge endpoint rejects writes before touching database',async()=>{
- const {default:handler}=await import('../api/knowledge.js');
+ const {default:handler}=await import('../lib/knowledge-handler.js');
  const response={headers:{},setHeader(k,v){this.headers[k]=v;},status(s){this.code=s;return this;},json(b){this.body=b;return this;}};
  await handler({method:'POST'},response);
  assert.equal(response.code,405);assert.equal(response.headers.Allow,'GET');
 });
 test('public knowledge endpoint fails closed without DATABASE_URL',async()=>{
  const saved=process.env.DATABASE_URL;delete process.env.DATABASE_URL;
- try{const {default:handler}=await import('../api/knowledge.js');
+ try{const {default:handler}=await import('../lib/knowledge-handler.js');
  const response={headers:{},setHeader(k,v){this.headers[k]=v;},status(s){this.code=s;return this;},json(b){this.body=b;return this;}};
  await handler({method:'GET'},response);assert.equal(response.code,503);assert.deepEqual(Object.keys(response.body),['error']);assert.equal(response.headers['Cache-Control'],'no-store');
  }finally{if(saved!==undefined)process.env.DATABASE_URL=saved;}

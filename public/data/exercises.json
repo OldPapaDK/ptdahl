@@ -55,7 +55,9 @@
     ],
     "level": "begynder",
     "instruction_da": "Bøj knæ og hofter kontrolleret og rejs dig igen med stabil balance.",
-    "source_ids": [],
+    "source_ids": [
+      "S17"
+    ],
     "provenance": "editorial_candidate_not_individually_source_verified",
     "review_status": "needs_coach_review",
     "medical_clearance_claim": false,
@@ -356,7 +358,9 @@
     ],
     "level": "let_oevet",
     "instruction_da": "Sænk og løft kroppen med hænderne i gulvet og stabil kropsstilling.",
-    "source_ids": [],
+    "source_ids": [
+      "S18"
+    ],
     "provenance": "editorial_candidate_not_individually_source_verified",
     "review_status": "needs_coach_review",
     "medical_clearance_claim": false,
@@ -1376,7 +1380,8 @@
     "level": "let_oevet",
     "instruction_da": "Løft stangen tæt ved kroppen med kontrolleret ben og hoftearbejde.",
     "source_ids": [
-      "U01"
+      "U01",
+      "S17"
     ],
     "provenance": "user_supplied_reference_card_not_independently_validated",
     "review_status": "needs_coach_review",
@@ -1447,7 +1452,8 @@
     "level": "oevet",
     "instruction_da": "Hold et stabilt hoftehængsel og træk stangen mod kroppen uden at kaste overkroppen.",
     "source_ids": [
-      "U01"
+      "U01",
+      "S17"
     ],
     "provenance": "user_supplied_reference_card_not_independently_validated",
     "review_status": "needs_coach_review",
@@ -1815,5 +1821,612 @@
     "media": null,
     "media_license": null,
     "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E082",
+    "name_da": "Clamshell",
+    "category": "styrke",
+    "movement_pattern": "hip_rotation",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "begynder",
+    "instruction_da": "Åbn og luk øverste knæ med bækkenet stabilt.",
+    "source_ids": [
+      "S14"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E083",
+    "name_da": "Hofteindrotation i 90/90",
+    "category": "mobilitet",
+    "movement_pattern": "hip_rotation",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Bevæg hoften roligt inden for et behageligt bevægeudslag.",
+    "source_ids": [
+      "S14"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E084",
+    "name_da": "Ankelløft med elastik",
+    "category": "styrke",
+    "movement_pattern": "ankle_dorsiflexion",
+    "required_equipment": [
+      "elastik",
+      "sikkert_anker"
+    ],
+    "level": "begynder",
+    "instruction_da": "Træk forfoden roligt op mod elastikkens modstand.",
+    "source_ids": [
+      "S14"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E085",
+    "name_da": "Ankeleversion med elastik",
+    "category": "styrke",
+    "movement_pattern": "ankle_eversion",
+    "required_equipment": [
+      "elastik",
+      "sikkert_anker"
+    ],
+    "level": "begynder",
+    "instruction_da": "Før foden kontrolleret udad mod elastikkens modstand.",
+    "source_ids": [
+      "S14"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E086",
+    "name_da": "Tibialis raise ved væg",
+    "category": "styrke",
+    "movement_pattern": "ankle_dorsiflexion",
+    "required_equipment": [
+      "vaeg"
+    ],
+    "level": "begynder",
+    "instruction_da": "Løft forfødderne med hælene i gulvet og vægstøtte.",
+    "source_ids": [
+      "S14"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E087",
+    "name_da": "Tåkontrol",
+    "category": "mobilitet",
+    "movement_pattern": "foot_control",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "begynder",
+    "instruction_da": "Øv rolige, adskilte løft af storetå og øvrige tæer.",
+    "source_ids": [
+      "S14"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E088",
+    "name_da": "Indadpres med lille bold",
+    "category": "styrke",
+    "movement_pattern": "hip_adduction",
+    "required_equipment": [
+      "lille_bold",
+      "maatte"
+    ],
+    "level": "begynder",
+    "instruction_da": "Pres knæene roligt mod bolden uden at holde vejret.",
+    "source_ids": [
+      "S14"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E089",
+    "name_da": "Knæbøjning med rolig mobilisering",
+    "category": "mobilitet",
+    "movement_pattern": "knee_flexion",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "begynder",
+    "instruction_da": "Bøj og stræk knæet roligt i et aftalt bevægeudslag.",
+    "source_ids": [
+      "S14"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E090",
+    "name_da": "Pull apart med elastik",
+    "category": "styrke",
+    "movement_pattern": "upper_back_pull",
+    "required_equipment": [
+      "elastik"
+    ],
+    "level": "begynder",
+    "instruction_da": "Spred hænderne mod elastikkens modstand med kontrollerede skuldre.",
+    "source_ids": [
+      "S15",
+      "S16"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E091",
+    "name_da": "Høje knæløft",
+    "category": "kardio",
+    "movement_pattern": "march",
+    "required_equipment": [
+      "gulvplads"
+    ],
+    "level": "begynder",
+    "instruction_da": "Løft knæene skiftevis i et tilpasset tempo.",
+    "source_ids": [
+      "S15"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E092",
+    "name_da": "Sprællemand",
+    "category": "kardio",
+    "movement_pattern": "jump",
+    "required_equipment": [
+      "gulvplads"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Saml og spred ben og arme med bløde landinger.",
+    "source_ids": [
+      "S15"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E093",
+    "name_da": "Walkout til planke",
+    "category": "styrke",
+    "movement_pattern": "core",
+    "required_equipment": [
+      "gulvplads"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Gå med hænderne til planke og tilbage med kontrol.",
+    "source_ids": [
+      "S15"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E094",
+    "name_da": "Monster walk med miniband",
+    "category": "styrke",
+    "movement_pattern": "hip_abduction",
+    "required_equipment": [
+      "miniband",
+      "fri_gulvplads"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Tag små kontrollerede skridt med spænding i elastikken.",
+    "source_ids": [
+      "S15"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E095",
+    "name_da": "Etbens glute bridge",
+    "category": "styrke",
+    "movement_pattern": "hip_extension",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Løft bækkenet kontrolleret med støtte på ét ben.",
+    "source_ids": [
+      "S15"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E096",
+    "name_da": "Armbøjning på knæ",
+    "category": "styrke",
+    "movement_pattern": "horizontal_push",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "begynder",
+    "instruction_da": "Bøj og stræk armene med knæstøtte og stabil krop.",
+    "source_ids": [
+      "S15"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E097",
+    "name_da": "Planke med skulderberøring",
+    "category": "styrke",
+    "movement_pattern": "anti_rotation",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Berør modsatte skulder uden at dreje kroppen unødigt.",
+    "source_ids": [
+      "S15"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E098",
+    "name_da": "Langsom mountain climber",
+    "category": "styrke",
+    "movement_pattern": "core",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Før knæene skiftevis frem fra en stabil plankeposition.",
+    "source_ids": [
+      "S15"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E099",
+    "name_da": "Sideplanke med rotation",
+    "category": "styrke",
+    "movement_pattern": "core_rotation",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "oevet",
+    "instruction_da": "Rotér overkroppen roligt fra en stabil sideplanke.",
+    "source_ids": [
+      "S15"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E100",
+    "name_da": "Enarms skulderpres med elastik",
+    "category": "styrke",
+    "movement_pattern": "vertical_push",
+    "required_equipment": [
+      "elastik"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Pres den ene arm op mod kontrolleret elastikmodstand.",
+    "source_ids": [
+      "S16"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E101",
+    "name_da": "Dødløft med elastik",
+    "category": "styrke",
+    "movement_pattern": "hinge",
+    "required_equipment": [
+      "elastik"
+    ],
+    "level": "begynder",
+    "instruction_da": "Rejs dig fra hoftehængsel med elastikken sikkert under fødderne.",
+    "source_ids": [
+      "S16"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E102",
+    "name_da": "Squat med elastik",
+    "category": "styrke",
+    "movement_pattern": "squat",
+    "required_equipment": [
+      "elastik"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Udfør en kontrolleret squat mod sikkert placeret elastikmodstand.",
+    "source_ids": [
+      "S16"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E103",
+    "name_da": "Foroverbøjet sideløft med elastik",
+    "category": "styrke",
+    "movement_pattern": "upper_back_pull",
+    "required_equipment": [
+      "elastik"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Før armene udad med stabilt hoftehængsel og kontrol.",
+    "source_ids": [
+      "S16"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E104",
+    "name_da": "Stående diagonalt træk med elastik",
+    "category": "styrke",
+    "movement_pattern": "diagonal_pull",
+    "required_equipment": [
+      "elastik"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Træk armen diagonalt op fra et sikkert lavt fæste.",
+    "source_ids": [
+      "S16"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E105",
+    "name_da": "Bænkpres med vægtstang",
+    "category": "styrke",
+    "movement_pattern": "horizontal_push",
+    "required_equipment": [
+      "vaegtstang",
+      "baenk",
+      "rack"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Sænk og pres stangen kontrolleret med aftalt sikkerhedsopsætning.",
+    "source_ids": [
+      "S17"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E106",
+    "name_da": "Stående skulderpres med vægtstang",
+    "category": "styrke",
+    "movement_pattern": "vertical_push",
+    "required_equipment": [
+      "vaegtstang",
+      "gulvplads"
+    ],
+    "level": "oevet",
+    "instruction_da": "Pres stangen op med stabil krop og kontrolleret bevægelse.",
+    "source_ids": [
+      "S17"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
+  },
+  {
+    "id": "E107",
+    "name_da": "Back squat med vægtstang",
+    "category": "styrke",
+    "movement_pattern": "squat",
+    "required_equipment": [
+      "vaegtstang",
+      "rack"
+    ],
+    "level": "oevet",
+    "instruction_da": "Udfør en kontrolleret squat med stangen placeret stabilt.",
+    "source_ids": [
+      "S17"
+    ],
+    "provenance": "identified_from_reference_original_brief_instruction",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen individuel eller klinisk egnethedsgodkendelse. Beskrivelse skrevet til PTDahl; kildens medier genudgives ikke."
   }
 ]

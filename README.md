@@ -1,52 +1,50 @@
-# PTDahl · databaseforbundet demo 0.2
+# PTDahl · privat adminarbejdsrum 0.3
 
-Første interaktive design og arbejdsgang til Thomas Wahlgren Dahl.
+GitHub: https://github.com/OldPapaDK/ptdahl · Vercel: https://ptdahl.vercel.app/
 
-## Status
+## Denne version
 
-Vercel projekt: `ptdahl` i brugerens eksisterende team. GitHub repository: https://github.com/OldPapaDK/ptdahl. Neon projekt: `ptdahl-db` i Frankfurt.
+- Next.js 16 med Neon Managed Better Auth og login via mail og adgangskode.
+- Kontoens mail skal være verificeret, og den skal matche serverens ejeradresse, før der gives adminadgang. Der er ingen regel om, at den første konto bliver administrator.
+- Brugeren opretter selv sin adgangskode. Applikationen gemmer den ikke i arbejdsrumsdata. Neon Auth håndterer login.
+- Besvarelser, forløb, træningssteder og træningsregistreringer gemmes i et privat arbejdsrum i Neon. Alle læsninger og skrivninger kræver den verificerede ejeridentitet på serveren.
+- Databasens ejer-ID kommer altid fra sessionen og kan ikke angives af browseren. Versionstjek afviser overskrivning fra en forældet fane.
+- Persondata gemmes ikke i sessionStorage eller localStorage. Netværksfejl vises, og browseren advarer ved lukning med ikke gemte ændringer.
+- Generel vidensbank: 107 øvelsesforslag, 19 kilderegistreringer, 52 spørgsmål og 20 principper. Øvelser kræver faglig gennemgang. Egne korte instruktioner og kildehenvisninger; ingen eksterne billeder eller videoer er kopieret.
 
-SQL importen blev testet på grenen `ptdahl-setup-validation` og derefter importeret i `main`: 81 øvelser, 14 kilder, 52 spørgsmål og 20 regler. Ingen eksisterende logindata blev ændret.
+Programbyggeren er stadig en første version med forenklede skabeloner og manuel gennemgang. Der er ingen automatisk fast vægtstigning. Mailinvitation, spørgeskema via personligt link og klientadgang til ét godkendt forløb er endnu ikke bygget. Brugervisningen er indtil da adminens forhåndsvisning. PDF bruger browserens udskriftsfunktion; servergenereret PDF og tekniske illustrationer mangler.
 
-**Dette er en demo med en rigtig vidensdatabase.** Generelle øvelser, kilder og skemafelter hentes fra Neon gennem en skrivebeskyttet serverfunktion. Adminlogin, brugerlogin, mails og AI er endnu ikke implementeret. Der må kun indtastes fiktive oplysninger. Demoens programmer, steder og træningsregistreringer gemmes i sessionStorage i den aktuelle browserfane. Det er ikke en sikker eller godkendt løsning til rigtige klienter. Programgeneratoren er forenklede skabeloner til afprøvning af flowet; den er ikke den færdige personlige træningsmotor.
+## Opret ejerkontoen
 
-81 øvelsesforslag; 14 kilderegistreringer (inklusive indsendte referencekort); 52 spørgeskemafelter; 20 principper. Alle øvelser afventer faglig gennemgang. Nye forslag fra Freeletics referencekort er tydeligt mærket som ikke individuelt verificerede. Referencebillederne genudgives ikke. Ikoner er dekorative.
+Åbn hjemmesiden og vælg Opret konto. Brug den ejeradresse, som er konfigureret på serveren. Vælg selv en adgangskode med mindst 12 tegn. Log ind, vælg Send bekræftelseskode og indtast koden fra mailen fra Neon Auth. Log ind igen efter bekræftelsen.
 
-## Afprøv
+Før rigtige klientoplysninger registreres, skal den dataansvarlige have fastlagt og oplyst behandlingsgrundlag, samtykke hvor relevant, slettefrist og databehandlerforhold. Helbredsoplysninger skal begrænses til det nødvendige. Der er ingen AI eller ekstern behandling af private besvarelser i denne version.
 
-1. Åbn Overblik og derefter Forløb.
-2. Gennemgå Sofies fiktive forløb, ændr en øvelse eller prøv kommandoen “Skift løb til cykel”.
-3. Afkryds gennemgang og tryk Godkend demoforløb.
-4. Åbn Brugervisning og prøv Start træning.
-5. Udskriv / gem PDF bruger browserens udskriftsfunktion. Der er ingen servergenereret PDF download endnu.
-6. Under Spørgeskema kan du indsætte et demoeksempel eller gennemgå felterne selv.
-7. Under Træningssteder kan du ændre udstyr og se delvise HYROX alternativer.
+## Drift og konfiguration
 
-Kommandoer er deterministiske demoeksempler, ikke AI. Ændringer bliver kladder og kræver fornyet godkendelse. Helbredsmarkeringer kræver eksplicit demoafklaring. Rigtig klinisk screening er ikke implementeret.
+Servervariabler: DATABASE_URL, NEON_AUTH_BASE_URL, NEON_AUTH_COOKIE_SECRET, PTDAHL_OWNER_EMAIL og PTDAHL_APP_ORIGIN. Ingen hemmelige værdier må lægges i Git eller klientkode. Ejeradressen er en serverindstilling. Auth-cookiehemmeligheden skal være mindst 32 tegn. Auths trusted origin er produktionsdomænet. Loginmail bruger i denne første opsætning Neons fælles mailtjeneste. Egen SMTP skal konfigureres før produktionsbrug med klienter.
 
-## Kode
+Kør `npm ci`, `npm test` og `npm run build` med Node.js 24. Bygningen laver en lokal browserbundle fra den installerede Neon SDK før Next.js bygges. Den genererede bundle og .next er ignoreret i Git.
 
-- `public/index.html`, `style.css`, `app.js`: brugerflade og demoarbejdsgange.
-- `api/knowledge.js`: serverfunktion til læsning af den generelle vidensbank. Ingen klient eller helbredsdata må tilføjes til dette endpoint.
+## Struktur
+
+- `app/api/auth/[...path]`: SDK'ens serverproxy. Ingen selvimplementeret password eller cookiehåndtering.
+- `app/api/session`: den aktuelle identitet, uden private arbejdsrumsdata.
+- `app/api/workspace`: adgangskontrolleret læsning og skrivning af ejerens arbejdsrum.
+- `app/api/knowledge`: skrivebeskyttet offentlig læsning af den generelle vidensbank. Denne route må aldrig udvides med klientoplysninger.
+- `lib/policy.js`: ejerkontrol, origin-kontrol og validering af arbejdsrumsformat.
+- `public/app.js`: adminflade, spørgeskema, programgennemgang og forhåndsvisning af brugerprogrammet.
+- `public/auth-ui.js`: login, kontooprettelse, mailbekræftelse og gendannelse af adgangskode.
 - `public/engine.js`: udstyrsmatch, alternative kandidater og forenklede programkladder.
-- `public/data/`: generelle kilder, øvelsesforslag, skemafelter og regler. Ingen persondata.
-- `db/001_research_seed.sql`: transaktionel import af 167 generelle indholdsposter til et nyt `training_knowledge` schema. Importeret i PTDahl databasen efter kontrol på en separat testgren.
-- `tests/engine.test.mjs`: udstyrsmatch, tidsbudgetter, godkendelsesblokering og fravær af automatisk progression.
+- `public/data`: generelle indholdsfiler; ingen klientoplysninger.
+- `db/001_research_seed.sql`: første generelle import.
+- `db/002_private_workspace.sql`: privat arbejdsrumsstruktur.
+- `db/003_add_reference_exercises.sql`: 26 nye øvelsesforslag og fem kilder, med kildetilføjelser til fire eksisterende poster.
 
-Kør `npm ci` og `npm test` med Node.js 24. Serverfunktionen bruger @neondatabase/serverless 1.0.2. Kør applikationen med Vercel og en korrekt konfigureret DATABASE_URL. Frontenden har ingen reservekopi ved databasefejl: den viser en fejl frem for at foregive en aktiv forbindelse. `vercel.json` angiver output og sikkerhedsheadere.
+Migrationer skal først køres og kontrolleres på en separat Neon testgren og derefter på main. Der må ikke køres manuelle ændringer i neon_auth schemaet. Kilder og øvelsesdata versionsstyres i Git.
 
-## Næste nødvendige etape
+## Kontrol og begrænsninger
 
-1. Kontroller Vercels Git forbindelse til OldPapaDK/ptdahl, så pushes udløser builds.
-2. Neon databasen er oprettet og tilknyttet PTDahl gennem Vercel integrationen. DATABASE_URL er en serverhemmelighed og må aldrig ligge i klientkode eller Git.
-3. Vidensbanken er importeret og kontrolleret med SQL. Fremtidige indholdsændringer skal versionsstyres og testes før import.
-4. Byg og migrer den private produktmodel: konti, klienter, skemaversioner, besvarelser, afklaringer, versionsstyrede forløb, øvelsesordinationer, godkendelser, invitationsrettigheder og træningslogs.
-5. Implementer serverkontrolleret adgang, login og mailinvitation med tidsbegrænset engangslink. Alle API'er og PDF adgang skal kontrollere ejer og godkendt version.
-6. Implementer den fulde personlige programgenerator og test mål, niveau, begrænsninger, samlet belastning, faktisk udstyr og realistisk tidsforbrug. En efterfølgende øgning må aldrig være en automatisk fast regel.
-7. Gennemgå øvelser og begrundelser fagligt, afklar rettigheder og producer korrekte illustrationer. Afklar helbredsdata, behandlingsgrundlag, slettefrister og databehandlerforhold før rigtig brug.
+Test dækker ejerkontrol med verificeret mail, afvisning af anden konto, afvisning af fremmede origins, ugyldige arbejdsrumsdata, udstyrsmatch, tidsbudgetter, godkendelsesblokering, målrettet mobilitetsskabelon og manglende databaseforbindelse.
 
-## Verifikation
-
-Enhedstest passerede for demoens regelsæt. Browserflow gennemført: spørgeskema med eksempelsvar → kladde; eksplicit godkendelse → brugervisning; opvarmning → øvelser → gennemført træning.
-
-Den generelle vidensbank er importeret i Neon. API endpointet /api/knowledge er skrivebeskyttet og læser kun de fire training_knowledge tabeller. Besvarelser, forløb og træningslogs er ikke databaseforbundet. Rigtigt login, mails, privat adgang og servergenereret PDF er ikke implementeret eller testet.
+Tidsbudgetsberegninger er estimater. Alle indholdsposter er forslag til gennemgang og ikke en klinisk vurdering eller automatisk egnethedsgodkendelse. Adgangskontrollen er implementeret; ejerens første kontooprettelse og mailbekræftelse kan først fuldt kontrolleres, når ejeren selv udfører dem. Passwordgendannelse er implementeret men ikke gennemført med ejerens konto under opbygningen.

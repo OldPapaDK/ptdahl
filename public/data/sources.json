@@ -138,5 +138,55 @@
     "checked_at": "2026-11-03",
     "access_status": "retrieved",
     "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S14",
+    "title": "KSO: øvelsesbank",
+    "url": "https://kso.dk/pages/ovelsesbank",
+    "type": "exercise_reference",
+    "summary": "Bredt øvelseskatalog, også med kliniske forslag. Nye poster kræver individuel vurdering; ingen behandlingsanbefalinger er overført.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "reference_only_original_instructions_no_media_copied"
+  },
+  {
+    "id": "S15",
+    "title": "Camilla Lykke: øvelsesbank",
+    "url": "https://www.camilla-lykke.dk/oevelses-bank/",
+    "type": "exercise_reference",
+    "summary": "Inspiration til opvarmning, styrke og kropsvægt. Egne korte beskrivelser; kildens billeder og videoer er ikke kopieret.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "reference_only_original_instructions_no_media_copied"
+  },
+  {
+    "id": "S16",
+    "title": "BeneFiT: øvelsesbank",
+    "url": "https://www.benefit.dk/ovelsesbank",
+    "type": "exercise_reference",
+    "summary": "Indgang til øvelser med blandt andet elastik og bevægelse på arbejdspladsen. Gennemgåede øvelsesnavne findes på undersiden alle-oevelser.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "reference_only_original_instructions_no_media_copied"
+  },
+  {
+    "id": "S17",
+    "title": "Bodylab: fem basisøvelser",
+    "url": "https://www.bodylab.dk/artikler/5-kongeoevelser",
+    "type": "exercise_reference",
+    "summary": "Artikel om fem basisøvelser. Bruges til øvelsesidentifikation, ikke som regel om at bestemte øvelser altid skal indgå.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "reference_only_original_instructions_no_media_copied"
+  },
+  {
+    "id": "S18",
+    "title": "SPORT 24: hjemmetræning",
+    "url": "https://www.sport24.dk/blog/hjemmetraening/",
+    "type": "exercise_reference",
+    "summary": "Oversigt med træningsvideoer og temaer til hjemmetræning. Registreret som inspirationskilde; videoer og komplette programmer er ikke overført.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved_index_only_for_S18",
+    "license_status": "reference_only_original_instructions_no_media_copied"
   }
 ]
