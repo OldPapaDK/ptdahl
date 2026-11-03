@@ -87,3 +87,13 @@ Nye kladder får konkrete warmup_items med bevægelse og samlet varighed. Skabel
 Tilpas opvarmning giver op til seks bevægelser og tider på 0,5 til 15 minutter pr. trin. Tiden inkluderer begge sider og skift. Ændringer kræver en ny programgodkendelse. Opvarmningen tæller med i sessionens samlede tidsbudget; længere opvarmning kan kræve reduktion af hoveddelen. Lettere indkøringssæt og eventuel yderligere pulsstigning aftales individuelt.
 
 Workoutvisning gennemgår hver opvarmningsbevægelse før hoveddelen og kan fortsættes efter pause. PDF/udskriftsvisningen viser også bevægelserne. Der er ingen automatisk timer. Allerede gemte forløb får ikke automatisk ændret opvarmning; træneren kan tilpasse den som ny kladde.
+
+## Invitationer og klientadgang · version 0.8
+
+Migration 007 tilføjer program_access og client_progress. Ejeren opretter et personligt invitationslink fra et gemt, godkendt forløb. Linket gælder i 7 dage, token lagres kun som SHA256, og accept kræver en eksisterende, bekræftet konto med præcis modtagermail. Klienten vælger selv kode i Neon Auth. Der sendes ingen invitationsmail; linket kopieres og sendes manuelt, indtil en mailtjeneste er installeret.
+
+/client viser kun accepterede forløb til den aktuelle konto. En offentlig konto giver ingen programadgang. Deling udgiver et separat snapshot med kun programindhold og relevante øvelsesinstruktioner; spørgeskemasvar, helbredsafklaringer og interne noter deles ikke. En ny kladde ændrer ikke den delte version. Deling igen erstatter snapshot og starter registrering på ny; gamle faner afvises ved versionskonflikt. Klienten kan udskrive alle 12 uger som PDF og gemme fremdrift og faktisk vægt, én opvarmning/øvelse ad gangen.
+
+Invitationer viser afventende, udløbne og aktive adgange. Tilbagekaldelse fjerner adgang og tilhørende registreringer. Klientsletning tilbagekalder alle personens adgange atomisk med fjernelse af arbejdsrumsdata, før eventuel authprofil slettes. Slettede konti og fjernede programmer kan ikke fortsat åbnes via cachede sessions.
+
+Test omfatter offentlig/ikke-ejer afvisning, fremmed origin, revisionskonflikt, snapshotfortrolighed, engangsaccept, udløb, forkert modtager, fremmede program-ID'er, træningsgrænser og ændret programversion. Kontooprettelse og mail-OTP testes ikke ved at oprette rigtige personer automatisk.

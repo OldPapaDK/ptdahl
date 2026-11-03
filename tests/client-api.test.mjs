@@ -10,7 +10,7 @@ function fixture({denied,failAuth=false,competingWrite=false}={}) {
   if(query.startsWith('SELECT data'))return [structuredClone(workspace)];
   if(query.startsWith('SELECT id, name'))return structuredClone(accounts);
   if(query.startsWith('SELECT id FROM'))return accounts.filter(a=>a.id===v[0]).map(a=>({id:a.id}));
-  if(query.startsWith('UPDATE')){if(competingWrite||workspace.revision!==v[2])return [];writes++;workspace={data:JSON.parse(v[0]),revision:workspace.revision+1};return [{revision:workspace.revision}];}
+  if((query.startsWith('UPDATE')||query.startsWith('WITH updated'))){if(competingWrite||workspace.revision!==v[2])return [];writes++;workspace={data:JSON.parse(v[0]),revision:workspace.revision+1};return [{revision:workspace.revision}];}
   throw Error('Unexpected query');
  };
  const handlers=createClientHandlers({requireOwner:async()=>denied?{denied:Response.json({error:'Denied'},{status:denied})}:{user:owner},connect:()=>sql,removeAccount:async id=>{removeCalls++;if(failAuth)return {error:{code:'FAIL'}};accounts=accounts.filter(a=>a.id!==id);return {data:{success:true}};},ownerEmail:owner.email,appOrigin:origin});
