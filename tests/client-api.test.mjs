@@ -7,6 +7,7 @@ function fixture({denied,failAuth=false,competingWrite=false}={}) {
  let accounts=[{id:'client-id',email:'client@example.test',name:'Klient'},{...owner,name:'Ejer'}],removeCalls=0,writes=0;
  const sql=async(strings,...v)=>{
   const query=strings.join('?');
+  if(query.startsWith('SELECT id,name,email FROM ptdahl.intake_requests'))return [];
   if(query.startsWith('SELECT data'))return [structuredClone(workspace)];
   if(query.startsWith('SELECT id, name'))return structuredClone(accounts);
   if(query.startsWith('SELECT id FROM'))return accounts.filter(a=>a.id===v[0]).map(a=>({id:a.id}));

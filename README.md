@@ -97,3 +97,13 @@ Migration 007 tilføjer program_access og client_progress. Ejeren opretter et pe
 Invitationer viser afventende, udløbne og aktive adgange. Tilbagekaldelse fjerner adgang og tilhørende registreringer. Klientsletning tilbagekalder alle personens adgange atomisk med fjernelse af arbejdsrumsdata, før eventuel authprofil slettes. Slettede konti og fjernede programmer kan ikke fortsat åbnes via cachede sessions.
 
 Test omfatter offentlig/ikke-ejer afvisning, fremmed origin, revisionskonflikt, snapshotfortrolighed, engangsaccept, udløb, forkert modtager, fremmede program-ID'er, træningsgrænser og ændret programversion. Kontooprettelse og mail-OTP testes ikke ved at oprette rigtige personer automatisk.
+
+## Selvudfyldelse via skemainvitation · version 0.9
+
+Migration 008 opretter intake_requests. Admin opretter et skemalink til navn og mail fra Spørgeskema eller Skemabesvarelser. Token lagres kun hashed, udløber efter 14 dage, og kræver bekræftet modtagermail. Login og mailbekræftelse bevarer invitationsfragmentet. Token sendes til API i header/body, aldrig i URL query eller lokal browserlagring. Automatisk invitationsmail er fortsat ikke konfigureret.
+
+Klienten giver information/samtykke før start, vælger konkret udstyr og kan gemme delvise svar og fortsætte via linket. Svar valideres på serveren mod spørgebanken, valgmuligheder, tidsrammer og udstyr. Skjulte opfølgningssvar fjernes. Mailadressen kan ikke ændres fra den verificerede modtager. Revisioner beskytter mod overskrivning fra gamle faner.
+
+Indsendelse låser skemaet og gemmer svar samt en ny programkladde i ejerens arbejdsrum i samme SQL statement. Kladden er aldrig godkendt eller delt. Kan generatoren ikke sammensætte noget med de oplyste rammer, gemmes besvarelsen med markering til manuel tilpasning. Klienten får kun kvittering, ingen programdata. Deling kræver ejerens eksisterende godkendelse og separate delingshandling.
+
+Admin kan se alle gemte svar under Skemabesvarelser og åbne forløbet med besvarelsen ved siden af i dialogen. Hent nye svar opdaterer arbejdsrummet, når der ikke er lokale ændringer. Besvarelser uden forløb kan åbnes i adminskemaet med en særskilt udstyrsliste. Fjern skemainvitation sletter skemalink og tilhørende svar; allerede importerede forløb bevares. Slet klient omfatter også alle personens skemainvitationer og svar atomisk med øvrige klientdata. Demo opretter ingen invitationer.
