@@ -1,0 +1,1819 @@
+[
+  {
+    "id": "E001",
+    "name_da": "Rejs dig fra stol",
+    "category": "styrke",
+    "movement_pattern": "squat",
+    "required_equipment": [
+      "stol"
+    ],
+    "level": "begynder",
+    "instruction_da": "Rejs dig roligt fra en stabil stol og sæt dig kontrolleret igen.",
+    "source_ids": [
+      "S07"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E002",
+    "name_da": "Mini squat med støtte",
+    "category": "styrke",
+    "movement_pattern": "squat",
+    "required_equipment": [
+      "stol"
+    ],
+    "level": "begynder",
+    "instruction_da": "Hold let ved en stabil støtte og bøj benene i et behageligt bevægeudslag.",
+    "source_ids": [
+      "S07"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E003",
+    "name_da": "Squat med kropsvægt",
+    "category": "styrke",
+    "movement_pattern": "squat",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "begynder",
+    "instruction_da": "Bøj knæ og hofter kontrolleret og rejs dig igen med stabil balance.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E004",
+    "name_da": "Goblet squat",
+    "category": "styrke",
+    "movement_pattern": "squat",
+    "required_equipment": [
+      "kettlebell"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Hold vægten foran brystet og udfør en kontrolleret squat.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E005",
+    "name_da": "Benpres",
+    "category": "styrke",
+    "movement_pattern": "squat",
+    "required_equipment": [
+      "benpresmaskine"
+    ],
+    "level": "begynder",
+    "instruction_da": "Indstil sæde og fodstilling og pres platformen væk uden at miste kontrollen.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E006",
+    "name_da": "Split squat med støtte",
+    "category": "styrke",
+    "movement_pattern": "single_leg",
+    "required_equipment": [
+      "stabil_stoette"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Stå med forskudte fødder og sænk kroppen lodret med let støtte.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E007",
+    "name_da": "Baglæns lunge",
+    "category": "styrke",
+    "movement_pattern": "single_leg",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Træd et skridt bagud og sænk kroppen kontrolleret før du vender tilbage.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E008",
+    "name_da": "Lav step up",
+    "category": "styrke",
+    "movement_pattern": "single_leg",
+    "required_equipment": [
+      "lav_step",
+      "stabil_stoette"
+    ],
+    "level": "begynder",
+    "instruction_da": "Træd op på et stabilt lavt trin og tilbage igen med kontrol.",
+    "source_ids": [
+      "S09"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E009",
+    "name_da": "Glute bridge",
+    "category": "styrke",
+    "movement_pattern": "hip_extension",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "begynder",
+    "instruction_da": "Lig med bøjede knæ og løft bækkenet kontrolleret uden at overstrække ryggen.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E010",
+    "name_da": "Hoftehængsel uden vægt",
+    "category": "styrke",
+    "movement_pattern": "hinge",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "begynder",
+    "instruction_da": "Skub hoften bagud med let bøjede knæ og rejs dig igen.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E011",
+    "name_da": "Rumænsk dødløft med håndvægte",
+    "category": "styrke",
+    "movement_pattern": "hinge",
+    "required_equipment": [
+      "haandvaegte"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Før hoften bagud mens vægtene holdes tæt ved benene og rejs dig kontrolleret.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E012",
+    "name_da": "Kettlebell dødløft",
+    "category": "styrke",
+    "movement_pattern": "hinge",
+    "required_equipment": [
+      "kettlebell"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Løft vægten mellem fødderne med et kontrolleret hofte og knæstræk.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E013",
+    "name_da": "Lårcurl maskine",
+    "category": "styrke",
+    "movement_pattern": "knee_flexion",
+    "required_equipment": [
+      "laarcurlmaskine"
+    ],
+    "level": "begynder",
+    "instruction_da": "Indstil maskinen og bøj knæene roligt mod modstanden.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E014",
+    "name_da": "Tåhævning med støtte",
+    "category": "styrke",
+    "movement_pattern": "calf",
+    "required_equipment": [
+      "stol"
+    ],
+    "level": "begynder",
+    "instruction_da": "Løft hælene roligt med støtte og sænk dem igen.",
+    "source_ids": [
+      "S07"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E015",
+    "name_da": "Armbøjning mod væg",
+    "category": "styrke",
+    "movement_pattern": "horizontal_push",
+    "required_equipment": [
+      "vaeg"
+    ],
+    "level": "begynder",
+    "instruction_da": "Sæt hænderne på væggen og bøj og stræk armene med kroppen stabil.",
+    "source_ids": [
+      "S07"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E016",
+    "name_da": "Skrå armbøjning",
+    "category": "styrke",
+    "movement_pattern": "horizontal_push",
+    "required_equipment": [
+      "stabil_baenk"
+    ],
+    "level": "begynder",
+    "instruction_da": "Udfør armbøjning med hænderne på en fast forhøjning.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E017",
+    "name_da": "Armbøjning på gulv",
+    "category": "styrke",
+    "movement_pattern": "horizontal_push",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Sænk og løft kroppen med hænderne i gulvet og stabil kropsstilling.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E018",
+    "name_da": "Brystpres maskine",
+    "category": "styrke",
+    "movement_pattern": "horizontal_push",
+    "required_equipment": [
+      "brystpresmaskine"
+    ],
+    "level": "begynder",
+    "instruction_da": "Indstil sædet og pres håndtagene frem og roligt tilbage.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E019",
+    "name_da": "Brystpres håndvægte",
+    "category": "styrke",
+    "movement_pattern": "horizontal_push",
+    "required_equipment": [
+      "haandvaegte",
+      "baenk"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Pres håndvægtene op fra brysthøjde og sænk kontrolleret.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E020",
+    "name_da": "Siddende kabelroning",
+    "category": "styrke",
+    "movement_pattern": "horizontal_pull",
+    "required_equipment": [
+      "kabelmaskine"
+    ],
+    "level": "begynder",
+    "instruction_da": "Træk håndtaget mod kroppen uden at kaste overkroppen bagud.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E021",
+    "name_da": "Roning med elastik",
+    "category": "styrke",
+    "movement_pattern": "horizontal_pull",
+    "required_equipment": [
+      "elastik",
+      "sikkert_anker"
+    ],
+    "level": "begynder",
+    "instruction_da": "Træk elastikken mod kroppen med et sikkert fæste og rolig bevægelse.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E022",
+    "name_da": "Enarmsroning med støtte",
+    "category": "styrke",
+    "movement_pattern": "horizontal_pull",
+    "required_equipment": [
+      "haandvaegt",
+      "stabil_baenk"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Støt kroppen og træk vægten mod hoften uden at dreje overkroppen.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E023",
+    "name_da": "Lat pulldown",
+    "category": "styrke",
+    "movement_pattern": "vertical_pull",
+    "required_equipment": [
+      "pulldownmaskine"
+    ],
+    "level": "begynder",
+    "instruction_da": "Træk håndtaget ned foran kroppen og før det kontrolleret tilbage.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E024",
+    "name_da": "Skulderpres maskine",
+    "category": "styrke",
+    "movement_pattern": "vertical_push",
+    "required_equipment": [
+      "skulderpresmaskine"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Pres håndtagene op i et behageligt bevægeudslag og sænk igen.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E025",
+    "name_da": "Biceps curl",
+    "category": "styrke",
+    "movement_pattern": "elbow_flexion",
+    "required_equipment": [
+      "haandvaegte"
+    ],
+    "level": "begynder",
+    "instruction_da": "Bøj albuerne med armene tæt ved kroppen og sænk vægtene roligt.",
+    "source_ids": [
+      "S07"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E026",
+    "name_da": "Triceps kabelpres",
+    "category": "styrke",
+    "movement_pattern": "elbow_extension",
+    "required_equipment": [
+      "kabelmaskine"
+    ],
+    "level": "begynder",
+    "instruction_da": "Stræk albuerne med overarmene i ro og før håndtaget tilbage.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E027",
+    "name_da": "Dead bug",
+    "category": "styrke",
+    "movement_pattern": "core",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "begynder",
+    "instruction_da": "Før modsat arm og ben langsomt væk fra kroppen mens kroppen holdes stabil.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E028",
+    "name_da": "Bird dog",
+    "category": "styrke",
+    "movement_pattern": "core",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "begynder",
+    "instruction_da": "Stå på alle fire og stræk modsat arm og ben uden at rotere kroppen.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E029",
+    "name_da": "Pallof press",
+    "category": "styrke",
+    "movement_pattern": "anti_rotation",
+    "required_equipment": [
+      "elastik",
+      "sikkert_anker"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Stå med siden til elastikken og pres hænderne frem uden at dreje kroppen.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E030",
+    "name_da": "Sideplanke på knæ",
+    "category": "styrke",
+    "movement_pattern": "core",
+    "required_equipment": [
+      "maatte"
+    ],
+    "level": "begynder",
+    "instruction_da": "Støt på underarm og knæ og løft hoften til en stabil stilling.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E031",
+    "name_da": "Farmers carry",
+    "category": "hyrox",
+    "movement_pattern": "carry",
+    "required_equipment": [
+      "to_vaegte",
+      "gåbane"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Gå med en vægt i hver hånd med rolig kontrol og fri gangbane.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E032",
+    "name_da": "Suitcase carry",
+    "category": "styrke",
+    "movement_pattern": "carry",
+    "required_equipment": [
+      "en_vaegt",
+      "gåbane"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Gå med en vægt i den ene hånd uden at læne kroppen til siden.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E033",
+    "name_da": "SkiErg",
+    "category": "hyrox",
+    "movement_pattern": "erg",
+    "required_equipment": [
+      "skierg"
+    ],
+    "level": "begynder",
+    "instruction_da": "Træk håndtagene rytmisk ned med koordineret brug af arme og krop.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E034",
+    "name_da": "Romaskine",
+    "category": "kardio",
+    "movement_pattern": "erg",
+    "required_equipment": [
+      "romaskine"
+    ],
+    "level": "begynder",
+    "instruction_da": "Skub med benene og afslut trækket med kroppen og armene; vend roligt tilbage.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E035",
+    "name_da": "Motionscykel",
+    "category": "kardio",
+    "movement_pattern": "cycle",
+    "required_equipment": [
+      "motionscykel"
+    ],
+    "level": "begynder",
+    "instruction_da": "Indstil sadlen og træd i et jævnt tempo med passende modstand.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E036",
+    "name_da": "Crosstrainer",
+    "category": "kardio",
+    "movement_pattern": "elliptical",
+    "required_equipment": [
+      "crosstrainer"
+    ],
+    "level": "begynder",
+    "instruction_da": "Bevæg arme og ben rytmisk og tilpas modstand og tempo.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E037",
+    "name_da": "Rask gang",
+    "category": "kardio",
+    "movement_pattern": "walk",
+    "required_equipment": [
+      "sikker_rute"
+    ],
+    "level": "begynder",
+    "instruction_da": "Gå i et tempo der passer til den aftalte intensitet.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E038",
+    "name_da": "Løb og gang",
+    "category": "loeb",
+    "movement_pattern": "run_walk",
+    "required_equipment": [
+      "sikker_rute"
+    ],
+    "level": "begynder",
+    "instruction_da": "Skift mellem korte rolige løbeperioder og gang efter dagens plan.",
+    "source_ids": [
+      "S06"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E039",
+    "name_da": "Roligt sammenhængende løb",
+    "category": "loeb",
+    "movement_pattern": "run",
+    "required_equipment": [
+      "sikker_rute"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Løb i et roligt tempo tilpasset varighed og erfaring.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E040",
+    "name_da": "Løbeintervaller",
+    "category": "loeb",
+    "movement_pattern": "run_interval",
+    "required_equipment": [
+      "sikker_rute"
+    ],
+    "level": "oevet",
+    "instruction_da": "Skift mellem aftalte arbejdsperioder og aktive eller rolige pauser.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E041",
+    "name_da": "Slædeskub",
+    "category": "hyrox",
+    "movement_pattern": "sled_push",
+    "required_equipment": [
+      "slaede",
+      "egnede_underlag"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Skub slæden frem med stabil kontakt og tilpasset belastning.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E042",
+    "name_da": "Slædetræk",
+    "category": "hyrox",
+    "movement_pattern": "sled_pull",
+    "required_equipment": [
+      "slaede",
+      "tov",
+      "egnede_underlag"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Træk slæden med kontrollerede tag og hold området omkring tovet frit.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E043",
+    "name_da": "Burpee med skridt",
+    "category": "hyrox",
+    "movement_pattern": "burpee",
+    "required_equipment": [
+      "gulvplads"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Træd til og fra gulvpositionen og rejs dig kontrolleret.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E044",
+    "name_da": "Burpee broad jump",
+    "category": "hyrox",
+    "movement_pattern": "jump",
+    "required_equipment": [
+      "gulvplads",
+      "hopbane"
+    ],
+    "level": "oevet",
+    "instruction_da": "Kombiner burpee og fremadrettet hop med kontrolleret landing.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E045",
+    "name_da": "Sandbag walking lunge",
+    "category": "hyrox",
+    "movement_pattern": "single_leg",
+    "required_equipment": [
+      "sandbag",
+      "gåbane"
+    ],
+    "level": "oevet",
+    "instruction_da": "Gå frem i kontrollerede lunges med sandbag placeret stabilt.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E046",
+    "name_da": "Wall ball",
+    "category": "hyrox",
+    "movement_pattern": "squat_throw",
+    "required_equipment": [
+      "wallball",
+      "sikkert_maal"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Kombiner squat med kast mod mål og modtag bolden kontrolleret.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E047",
+    "name_da": "Nakkerotation",
+    "category": "mobilitet",
+    "movement_pattern": "neck",
+    "required_equipment": [
+      "stol"
+    ],
+    "level": "begynder",
+    "instruction_da": "Drej hovedet langsomt fra side til side i et behageligt bevægeudslag.",
+    "source_ids": [
+      "S08"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E048",
+    "name_da": "Lægstræk ved væg",
+    "category": "mobilitet",
+    "movement_pattern": "ankle",
+    "required_equipment": [
+      "vaeg"
+    ],
+    "level": "begynder",
+    "instruction_da": "Sæt det ene ben bagud og hold hælen nede mens du læner dig roligt frem.",
+    "source_ids": [
+      "S08"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E049",
+    "name_da": "Ankelbevægelse mod væg",
+    "category": "mobilitet",
+    "movement_pattern": "ankle",
+    "required_equipment": [
+      "vaeg"
+    ],
+    "level": "begynder",
+    "instruction_da": "Før knæet roligt mod væggen med hælen i gulvet.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E050",
+    "name_da": "Skulderløft og sænkning",
+    "category": "mobilitet",
+    "movement_pattern": "shoulder",
+    "required_equipment": [
+      "ingen"
+    ],
+    "level": "begynder",
+    "instruction_da": "Løft og sænk skuldrene langsomt uden at presse bevægelsen.",
+    "source_ids": [],
+    "provenance": "editorial_candidate_not_individually_source_verified",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E051",
+    "name_da": "Hæl til tå gang",
+    "category": "balance",
+    "movement_pattern": "balance",
+    "required_equipment": [
+      "stabil_stoette"
+    ],
+    "level": "begynder",
+    "instruction_da": "Gå langsomt med den ene fod foran den anden og støtte inden for rækkevidde.",
+    "source_ids": [
+      "S09"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E052",
+    "name_da": "Etbensstand med støtte",
+    "category": "balance",
+    "movement_pattern": "balance",
+    "required_equipment": [
+      "stabil_stoette"
+    ],
+    "level": "begynder",
+    "instruction_da": "Løft den ene fod og hold balancen med støtte efter behov.",
+    "source_ids": [
+      "S09"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E053",
+    "name_da": "Sidelæns gang",
+    "category": "balance",
+    "movement_pattern": "balance",
+    "required_equipment": [
+      "fri_gulvplads"
+    ],
+    "level": "begynder",
+    "instruction_da": "Tag rolige skridt til siden med stabil kropsstilling.",
+    "source_ids": [
+      "S09"
+    ],
+    "provenance": "matching_public_example_original_wording",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Ingen automatisk egnethedsvurdering ved skade. Ingen konkurrencespecifik dosering."
+  },
+  {
+    "id": "E054",
+    "name_da": "Ski træk med elastik",
+    "category": "hyrox",
+    "movement_pattern": "ski_pull",
+    "required_equipment": [
+      "elastik",
+      "hoejt_sikkert_anker"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Træk elastikken fra et højt sikkert fæste ned med begge arme og et kontrolleret hoftehængsel.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E055",
+    "name_da": "Kettlebell swing",
+    "category": "styrke",
+    "movement_pattern": "hinge_power",
+    "required_equipment": [
+      "kettlebell",
+      "gulvplads"
+    ],
+    "level": "oevet",
+    "instruction_da": "Brug et indlært hoftehængsel til at drive kettlebellen frem og lad den vende tilbage med kontrol.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E056",
+    "name_da": "Tricepsstræk over hovedet",
+    "category": "styrke",
+    "movement_pattern": "elbow_extension",
+    "required_equipment": [
+      "haandvaegt"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Hold vægten over hovedet og bøj og stræk albuerne kontrolleret i et behageligt bevægeudslag.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E057",
+    "name_da": "Knælende cable crunch",
+    "category": "styrke",
+    "movement_pattern": "trunk_flexion",
+    "required_equipment": [
+      "kabelmaskine",
+      "maatte"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Knæl ved kablet og bøj overkroppen kontrolleret mod modstanden efter teknisk instruktion.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E058",
+    "name_da": "Bear crawl med vægtvest",
+    "category": "styrke",
+    "movement_pattern": "crawl",
+    "required_equipment": [
+      "vaegtvest",
+      "fri_gulvplads"
+    ],
+    "level": "oevet",
+    "instruction_da": "Bevæg dig på hænder og fødder med løftede knæ og kontrolleret kropsstilling.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E059",
+    "name_da": "Step up med håndvægte",
+    "category": "styrke",
+    "movement_pattern": "single_leg",
+    "required_equipment": [
+      "haandvaegte",
+      "lav_step"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Træd op og ned på et stabilt trin med håndvægte og kontrolleret balance.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E060",
+    "name_da": "Front squat med vægtstang",
+    "category": "styrke",
+    "movement_pattern": "squat",
+    "required_equipment": [
+      "vaegtstang",
+      "rack"
+    ],
+    "level": "oevet",
+    "instruction_da": "Hold stangen i indlært frontposition og udfør en kontrolleret squat.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E061",
+    "name_da": "Wall sit med ekstra vægt",
+    "category": "styrke",
+    "movement_pattern": "knee_isometric",
+    "required_equipment": [
+      "vaeg",
+      "vaegtskive"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Hold en tilpasset siddestilling mod væggen med sikkert placeret ekstra belastning.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E062",
+    "name_da": "Pendlay row",
+    "category": "styrke",
+    "movement_pattern": "horizontal_pull",
+    "required_equipment": [
+      "vaegtstang",
+      "gulvplads"
+    ],
+    "level": "oevet",
+    "instruction_da": "Træk stangen fra gulvet mod kroppen fra en indlært og stabil foroverbøjet position.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E063",
+    "name_da": "Dødløft med vægtstang",
+    "category": "styrke",
+    "movement_pattern": "hinge",
+    "required_equipment": [
+      "vaegtstang",
+      "gulvplads"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Løft stangen tæt ved kroppen med kontrolleret ben og hoftearbejde.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E064",
+    "name_da": "Inverted row",
+    "category": "styrke",
+    "movement_pattern": "horizontal_pull",
+    "required_equipment": [
+      "sikkert_roningsstativ"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Træk brystet mod en sikkert fastgjort stang og sænk kroppen kontrolleret.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E065",
+    "name_da": "Face pull med elastik",
+    "category": "styrke",
+    "movement_pattern": "upper_back_pull",
+    "required_equipment": [
+      "elastik",
+      "sikkert_anker"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Træk elastikken mod ansigtshøjde med rolig bevægelse og et sikkert fæste.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E066",
+    "name_da": "Foroverbøjet roning med vægtstang",
+    "category": "styrke",
+    "movement_pattern": "horizontal_pull",
+    "required_equipment": [
+      "vaegtstang",
+      "gulvplads"
+    ],
+    "level": "oevet",
+    "instruction_da": "Hold et stabilt hoftehængsel og træk stangen mod kroppen uden at kaste overkroppen.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E067",
+    "name_da": "Rumænsk dødløft med vægtstang",
+    "category": "styrke",
+    "movement_pattern": "hinge",
+    "required_equipment": [
+      "vaegtstang",
+      "gulvplads"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Før hoften bagud og stangen tæt ved benene og rejs dig kontrolleret.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E068",
+    "name_da": "Sumo dødløft",
+    "category": "styrke",
+    "movement_pattern": "hinge",
+    "required_equipment": [
+      "vaegtstang",
+      "gulvplads"
+    ],
+    "level": "oevet",
+    "instruction_da": "Brug en tilpasset bred fodstilling og løft stangen kontrolleret tæt ved kroppen.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E069",
+    "name_da": "Stående længdehop",
+    "category": "hyrox",
+    "movement_pattern": "jump",
+    "required_equipment": [
+      "hopbane"
+    ],
+    "level": "oevet",
+    "instruction_da": "Hop frem fra en stabil start og land kontrolleret på et egnet underlag.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E070",
+    "name_da": "Burpee",
+    "category": "hyrox",
+    "movement_pattern": "burpee",
+    "required_equipment": [
+      "gulvplads"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Gå via den indlærte gulvposition tilbage til stående og afslut efter den aftalte variant.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E071",
+    "name_da": "Burpee frog",
+    "category": "hyrox",
+    "movement_pattern": "jump",
+    "required_equipment": [
+      "hopbane"
+    ],
+    "level": "oevet",
+    "instruction_da": "Kombiner en indlært burpeevariant med et kontrolleret fremadrettet hop.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E072",
+    "name_da": "Burpee med vægtvest",
+    "category": "hyrox",
+    "movement_pattern": "burpee",
+    "required_equipment": [
+      "vaegtvest",
+      "gulvplads"
+    ],
+    "level": "oevet",
+    "instruction_da": "Udfør den aftalte burpeevariant med fastsiddende vægtvest og kontrolleret bevægelse.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E073",
+    "name_da": "Gang med kettlebell over hovedet",
+    "category": "styrke",
+    "movement_pattern": "overhead_carry",
+    "required_equipment": [
+      "kettlebell",
+      "gåbane"
+    ],
+    "level": "oevet",
+    "instruction_da": "Gå kontrolleret med en stabil vægt over hovedet efter teknisk instruktion.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E074",
+    "name_da": "Shrug med håndvægte",
+    "category": "styrke",
+    "movement_pattern": "scapular_elevation",
+    "required_equipment": [
+      "haandvaegte"
+    ],
+    "level": "begynder",
+    "instruction_da": "Løft og sænk skuldrene kontrolleret med håndvægtene langs siden.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E075",
+    "name_da": "Walking lunge med håndvægte",
+    "category": "hyrox",
+    "movement_pattern": "single_leg",
+    "required_equipment": [
+      "haandvaegte",
+      "gåbane"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Gå frem i kontrollerede lunges med håndvægtene langs siden.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E076",
+    "name_da": "Lunge med vægtstang",
+    "category": "styrke",
+    "movement_pattern": "single_leg",
+    "required_equipment": [
+      "vaegtstang",
+      "rack",
+      "gulvplads"
+    ],
+    "level": "oevet",
+    "instruction_da": "Udfør den aftalte lungevariant med stangen stabilt placeret efter instruktion.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E077",
+    "name_da": "Split squat med vægtvest",
+    "category": "styrke",
+    "movement_pattern": "single_leg",
+    "required_equipment": [
+      "vaegtvest",
+      "gulvplads"
+    ],
+    "level": "let_oevet",
+    "instruction_da": "Stå med forskudte fødder og sænk kroppen kontrolleret med vesten sikkert placeret.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E078",
+    "name_da": "Bulgarsk split squat med håndvægte",
+    "category": "styrke",
+    "movement_pattern": "single_leg",
+    "required_equipment": [
+      "haandvaegte",
+      "stabil_baenk"
+    ],
+    "level": "oevet",
+    "instruction_da": "Placér den bageste fod på en fast bænk og udfør kontrolleret benarbejde på det forreste ben.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E079",
+    "name_da": "Thruster med vægtstang",
+    "category": "hyrox",
+    "movement_pattern": "squat_press",
+    "required_equipment": [
+      "vaegtstang",
+      "gulvplads"
+    ],
+    "level": "oevet",
+    "instruction_da": "Kombiner en indlært front squat med et kontrolleret pres over hovedet.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E080",
+    "name_da": "Push press med vægtstang",
+    "category": "styrke",
+    "movement_pattern": "vertical_push_power",
+    "required_equipment": [
+      "vaegtstang",
+      "gulvplads"
+    ],
+    "level": "oevet",
+    "instruction_da": "Brug en kort kontrolleret benbevægelse til at assistere presset over hovedet.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  },
+  {
+    "id": "E081",
+    "name_da": "Squat jump med vægtvest",
+    "category": "hyrox",
+    "movement_pattern": "jump",
+    "required_equipment": [
+      "vaegtvest",
+      "hopbane"
+    ],
+    "level": "oevet",
+    "instruction_da": "Udfør et tilpasset squat jump med fast vest og kontrolleret landing.",
+    "source_ids": [
+      "U01"
+    ],
+    "provenance": "user_supplied_reference_card_not_independently_validated",
+    "review_status": "needs_coach_review",
+    "medical_clearance_claim": false,
+    "default_sets": null,
+    "default_reps": null,
+    "default_load_kg": null,
+    "media": null,
+    "media_license": null,
+    "notes": "Forslag fra brugerens referencekort. Hverken teknik, egnethed eller substitutionsværdi er godkendt. Billederne genudgives ikke."
+  }
+]

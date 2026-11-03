@@ -1,0 +1,142 @@
+[
+  {
+    "id": "S01",
+    "title": "Sundhedsstyrelsen: fysisk aktivitet voksne 18 til 64",
+    "url": "https://www.sst.dk/vidensbase/forebyggelse/anbefalinger-om-fysisk-aktivitet/anbefalinger-om-fysisk-aktivitet-og-stillesiddende-tid/anbefalinger-om-fysisk-aktivitet-og-stillesiddende-tid-for-voksne-18-til-64-aar",
+    "type": "myndighed",
+    "summary": "30 minutters daglig aktivitet og muskelstyrkende aktivitet mindst to gange ugentligt.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S02",
+    "title": "WHO: Physical activity",
+    "url": "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+    "type": "myndighed",
+    "summary": "For voksne: 150 til 300 minutters moderat eller 75 til 150 minutters høj intensitet ugentligt; muskelstyrkende aktivitet mindst to dage.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S03",
+    "title": "ACSM: Resistance training guidelines 2026",
+    "url": "https://acsm.org/resistance-training-guidelines-update-2026/",
+    "type": "faglig_organisation",
+    "summary": "Tilpas belastning og volumen til mål; hjemmetræning og elastikker kan være effektive. Komplekse metoder er ikke nødvendige for alle.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S04",
+    "title": "ACSM position stand 2026: originalartikel, abstract",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/",
+    "type": "forskningsoversigt",
+    "summary": "Styrke og muskelvækst påvirkes forskelligt af belastning og volumen. Undersøgelsen omhandler raske voksne, ikke individuel genoptræning.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S05",
+    "title": "CSEP: Get Active Questionnaire",
+    "url": "https://csep.ca/2021/01/20/pre-screening-for-physical-activity/",
+    "type": "screeningsressource",
+    "summary": "Screening er ét led i vurderingen. Positive svar skal følges op; de betyder ikke automatisk lægekrav for alle.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S06",
+    "title": "NHS: Couch to 5K running plan",
+    "url": "https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/couch-to-5k-running-plan/",
+    "type": "offentligt_program",
+    "summary": "Eksempel på gradvis løbeopstart med løb og gang samt hviledage. Slutmålet på siden er 30 minutters løb, ikke en garanti for 5 km.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S07",
+    "title": "NHS: Strength exercises",
+    "url": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+    "type": "offentlig_oevelsesvejledning",
+    "summary": "Konkrete hjemmeøvelser og gradvis opbygning.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S08",
+    "title": "NHS: Flexibility exercises",
+    "url": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/",
+    "type": "offentlig_oevelsesvejledning",
+    "summary": "Eksempler på rolige bevægelighedsøvelser.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S09",
+    "title": "NHS: Balance exercises",
+    "url": "https://www.nhs.uk/live-well/exercise/balance-exercises/",
+    "type": "offentlig_oevelsesvejledning",
+    "summary": "Balanceøvelser med støtte efter behov.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S10",
+    "title": "HYROX: officielle regelbøger",
+    "url": "https://hyrox.com/rulebook/",
+    "type": "konkurrenceregler",
+    "summary": "Downloadoversigt identificeret. Direkte hentning var blokeret. Sæsonspecifikke vægte og regler er derfor IKKE verificeret eller importeret.",
+    "checked_at": "2026-11-03",
+    "access_status": "index_only_details_pending",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S11",
+    "title": "Datatilsynet: hvornår må du behandle personoplysninger",
+    "url": "https://www.datatilsynet.dk/regler-og-vejledning/grundlaeggende-begreber/hvornaar-maa-du-behandle-personoplysninger/",
+    "type": "myndighed",
+    "summary": "Helbredsoplysninger er følsomme. Behandlingen kræver både behandlingsgrundlag og relevant undtagelse til forbuddet.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "S12",
+    "title": "NHS: knee pain and other running injuries",
+    "url": "https://www.nhs.uk/live-well/exercise/knee-pain-and-other-running-injuries/",
+    "type": "offentlig_vejledning",
+    "summary": "Gradvis øgning af løb og opmærksomhed på skadesproblemer.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  },
+  {
+    "id": "U01",
+    "title": "Referencekort indsendt af Thomas · Freeletics",
+    "url": null,
+    "type": "user_supplied_reference",
+    "summary": "Otte indsendte referencekort med forslag til supplerende øvelser ved manglende HYROX udstyr. Forslagene er registreret til vurdering; de er ikke dokumentation for ligeværdige erstatninger. Billederne genudgives ikke.",
+    "checked_at": "2026-11-03",
+    "access_status": "user_images_seen",
+    "license_status": "not_cleared_no_images_republished"
+  },
+  {
+    "id": "S13",
+    "title": "Concept2: SkiErg technique",
+    "url": "https://www.concept2.co.uk/training/skierg-technique",
+    "type": "equipment_manufacturer",
+    "summary": "Producentens tekniske beskrivelse af dobbelt stavtag. Understøtter, at SkiErg omfatter koordineret arbejde fra overkrop, krop og ben. Vores vurdering af andre øvelsers overførsel er fortsat et særskilt trænerforslag.",
+    "checked_at": "2026-11-03",
+    "access_status": "retrieved",
+    "license_status": "link_and_original_summary_only"
+  }
+]

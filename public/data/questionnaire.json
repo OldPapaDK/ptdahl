@@ -1,0 +1,522 @@
+[
+  {
+    "id": "Q001",
+    "key": "name",
+    "section": "profil",
+    "type": "text",
+    "label_da": "Hvad hedder du?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q002",
+    "key": "email",
+    "section": "profil",
+    "type": "email",
+    "label_da": "Hvilken mail skal bruges til invitation?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q003",
+    "key": "age",
+    "section": "profil",
+    "type": "integer",
+    "label_da": "Hvor gammel er du?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q004",
+    "key": "sex",
+    "section": "profil",
+    "type": "single_optional",
+    "label_da": "Hvilket køn ønsker du at oplyse? Kvinde;Mand;Andet;Ønsker ikke at oplyse",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q005",
+    "key": "height",
+    "section": "profil",
+    "type": "number_optional",
+    "label_da": "Højde i cm, hvis relevant for dit mål?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q006",
+    "key": "weight",
+    "section": "profil",
+    "type": "number_optional",
+    "label_da": "Vægt i kg, hvis relevant for dit mål?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q007",
+    "key": "primary_goal",
+    "section": "maal",
+    "type": "single",
+    "label_da": "Hvad er dit vigtigste mål? Bedre form;Styrke;Muskelmasse;Løb 5 km;HYROX;Mobilitet;Hverdagsfunktion;Andet",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q008",
+    "key": "secondary_goals",
+    "section": "maal",
+    "type": "multi",
+    "label_da": "Hvad vil du også gerne opnå? Kondition;Styrke;Balance;Bevægelighed;Træningsvane;Andet",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q009",
+    "key": "success",
+    "section": "maal",
+    "type": "text",
+    "label_da": "Hvad vil gøre dig tilfreds efter 12 uger?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q010",
+    "key": "event_date",
+    "section": "maal",
+    "type": "date_optional",
+    "label_da": "Har du en dato for et løb eller event?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q011",
+    "key": "event_type",
+    "section": "maal",
+    "type": "single_conditional",
+    "label_da": "Hvilket event og format træner du til? 5 km;Anden løbedistance;HYROX Single;HYROX Doubles;HYROX Relay;Andet",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q012",
+    "key": "race_class",
+    "section": "maal",
+    "type": "text_conditional",
+    "label_da": "Hvilken division, sæson og eventdato gælder? Udfyldes ved HYROX.",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q013",
+    "key": "strength_history",
+    "section": "erfaring",
+    "type": "single",
+    "label_da": "Hvor meget styrketræning har du lavet de seneste 3 måneder? Ingen;Under en gang ugentligt;1 til 2 gange;3 eller flere gange",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q014",
+    "key": "training_years",
+    "section": "erfaring",
+    "type": "number",
+    "label_da": "Hvor mange års nogenlunde regelmæssig træning har du?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q015",
+    "key": "current_week",
+    "section": "erfaring",
+    "type": "text",
+    "label_da": "Hvordan ser en normal træningsuge ud lige nu?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q016",
+    "key": "recent_break",
+    "section": "erfaring",
+    "type": "text_optional",
+    "label_da": "Har du holdt en længere pause? Hvor længe og hvorfor?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q017",
+    "key": "known_loads",
+    "section": "erfaring",
+    "type": "text_optional",
+    "label_da": "Hvilke øvelser og belastninger kender du allerede? Angiv også gentagelser.",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q018",
+    "key": "days_per_week",
+    "section": "rammer",
+    "type": "integer",
+    "label_da": "Hvor mange dage om ugen kan du realistisk træne? 1 til 7",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q019",
+    "key": "preferred_days",
+    "section": "rammer",
+    "type": "multi",
+    "label_da": "Hvilke dage passer dig? Mandag;Tirsdag;Onsdag;Torsdag;Fredag;Lørdag;Søndag;Skiftende",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q020",
+    "key": "minutes",
+    "section": "rammer",
+    "type": "integer",
+    "label_da": "Hvor mange minutter har du inklusive opvarmning og pauser?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q021",
+    "key": "location",
+    "section": "rammer",
+    "type": "multi",
+    "label_da": "Hvor træner du? Hjemme;Fitnesscenter;Udendørs;HYROX center;Andet",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q022",
+    "key": "equipment",
+    "section": "rammer",
+    "type": "equipment_inventory",
+    "label_da": "Hvilket udstyr har du faktisk adgang til? Vælg udstyr og angiv vægte, antal og begrænsninger.",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q023",
+    "key": "space",
+    "section": "rammer",
+    "type": "text",
+    "label_da": "Har du gulvplads, sikker gangbane, støjhensyn eller loftsbegrænsninger?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q024",
+    "key": "other_activity",
+    "section": "rammer",
+    "type": "text",
+    "label_da": "Har du sport, holdtræning eller fysisk arbejde ud over programmet?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q025",
+    "key": "run_ability",
+    "section": "loeb",
+    "type": "single",
+    "label_da": "Kan og vil du løbe? Ja;Kan men ønsker ikke;Ønsker men kan ikke nu;Nej;Usikker",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q026",
+    "key": "current_run",
+    "section": "loeb",
+    "type": "number_conditional",
+    "label_da": "Hvor mange minutter kan du løbe roligt uden pause lige nu?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q027",
+    "key": "weekly_run",
+    "section": "loeb",
+    "type": "number_conditional",
+    "label_da": "Hvor mange kilometer løber du normalt om ugen?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q028",
+    "key": "recent_5k",
+    "section": "loeb",
+    "type": "text_optional",
+    "label_da": "Har du en nyere 5 km tid? Angiv dato og om du pressede dig maksimalt.",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q029",
+    "key": "walk_tolerance",
+    "section": "loeb",
+    "type": "text",
+    "label_da": "Hvor længe kan du gå i et behageligt tempo?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q030",
+    "key": "alternatives",
+    "section": "loeb",
+    "type": "multi",
+    "label_da": "Hvilke konditionsformer kan du bruge? Gang;Cykel;Roning;SkiErg;Crosstrainer;Svømning;Andet",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q031",
+    "key": "current_symptoms",
+    "section": "helbred",
+    "type": "yes_no_unsure",
+    "label_da": "Har du symptomer eller helbredsproblemer, der kan påvirke træning?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q032",
+    "key": "pain_location",
+    "section": "helbred",
+    "type": "bodymap_conditional",
+    "label_da": "Hvor har du smerter eller ubehag? Angiv også side og område.",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q033",
+    "key": "pain_context",
+    "section": "helbred",
+    "type": "text_conditional",
+    "label_da": "Hvornår mærker du det, hvor længe har det stået på, og hvilke bevægelser påvirker det?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q034",
+    "key": "pain_severity",
+    "section": "helbred",
+    "type": "scale_conditional",
+    "label_da": "Hvor kraftigt oplever du ubehaget fra 0 til 10? Tallet bruges ikke alene til godkendelse.",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q035",
+    "key": "restrictions",
+    "section": "helbred",
+    "type": "text_optional",
+    "label_da": "Har en læge eller fysioterapeut givet dig konkrete begrænsninger eller råd?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q036",
+    "key": "operations",
+    "section": "helbred",
+    "type": "text_optional",
+    "label_da": "Har du operationer, implantater eller skader, som er relevante for træningen?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q037",
+    "key": "exertional_symptoms",
+    "section": "helbred",
+    "type": "yes_no_unsure",
+    "label_da": "Har du oplevet brystsmerter, besvimelse eller usædvanlig åndenød ved aktivitet?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q038",
+    "key": "medical_conditions",
+    "section": "helbred",
+    "type": "text_optional",
+    "label_da": "Er der relevante sygdomme eller behandlinger, vi skal tage hensyn til?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q039",
+    "key": "medication_effects",
+    "section": "helbred",
+    "type": "text_optional",
+    "label_da": "Er der medicin eller behandling, der påvirker din balance, puls eller evne til at træne? Oplys kun det nødvendige.",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q040",
+    "key": "pregnancy_postpartum",
+    "section": "helbred",
+    "type": "single_optional",
+    "label_da": "Er graviditet eller tiden efter fødsel relevant? Ja;Nej;Ønsker at tale med dig om det",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q041",
+    "key": "floor_transfer",
+    "section": "helbred",
+    "type": "single",
+    "label_da": "Kan du komme ned på gulvet og op igen? Ja;Med støtte;Nej;Usikker",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q042",
+    "key": "balance_limits",
+    "section": "helbred",
+    "type": "yes_no_unsure",
+    "label_da": "Har du problemer med balance eller faldrisiko?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q043",
+    "key": "sleep",
+    "section": "hverdag",
+    "type": "single",
+    "label_da": "Hvordan er din søvn oftest? God;Varierende;Dårlig;Ønsker ikke at oplyse",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q044",
+    "key": "recovery",
+    "section": "hverdag",
+    "type": "single",
+    "label_da": "Hvordan er dit overskud og din restitution? God;Varierende;Begrænset",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q045",
+    "key": "barriers",
+    "section": "hverdag",
+    "type": "multi",
+    "label_da": "Hvad kan gøre træningen svær? Tid;Smerter;Træthed;Usikker teknik;Motivation;Støj og mange mennesker;Andet",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q046",
+    "key": "likes",
+    "section": "praeferencer",
+    "type": "text_optional",
+    "label_da": "Hvilke aktiviteter eller øvelser kan du godt lide?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q047",
+    "key": "dislikes",
+    "section": "praeferencer",
+    "type": "text_optional",
+    "label_da": "Hvilke aktiviteter vil du helst undgå?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q048",
+    "key": "presentation",
+    "section": "praeferencer",
+    "type": "multi",
+    "label_da": "Hvad hjælper dig med at følge programmet? Korte tekster;Illustrationer;Video;En øvelse ad gangen;Fast ugeplan",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q049",
+    "key": "notes",
+    "section": "praeferencer",
+    "type": "text_optional",
+    "label_da": "Er der andre forhold, du ønsker at fortælle?",
+    "required": false,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q050",
+    "key": "privacy_ack",
+    "section": "samtykke",
+    "type": "acknowledgement",
+    "label_da": "Jeg har læst informationen om formål, adgang, opbevaring og mine rettigheder.",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q051",
+    "key": "health_consent",
+    "section": "samtykke",
+    "type": "explicit_consent",
+    "label_da": "Jeg giver udtrykkeligt samtykke til den beskrevne behandling af relevante helbredsoplysninger. Samtykket kan trækkes tilbage.",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  },
+  {
+    "id": "Q052",
+    "key": "review_with_coach",
+    "section": "afklaring",
+    "type": "yes_no",
+    "label_da": "Vil du gerne tale med Thomas om noget, før programmet laves?",
+    "required": true,
+    "routing_status": "specification_requires_ui_validation",
+    "version": 1
+  }
+]

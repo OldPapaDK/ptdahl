@@ -1,0 +1,206 @@
+[
+  {
+    "id": "R01",
+    "topic": "population_activity",
+    "evidence_type": "source_summary",
+    "source_ids": [
+      "S01",
+      "S02"
+    ],
+    "statement_da": "Vis generelle aktivitetsanbefalinger som baggrund, ikke som obligatorisk startmængde for en inaktiv person.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R02",
+    "topic": "strength_frequency",
+    "evidence_type": "source_summary",
+    "source_ids": [
+      "S03",
+      "S04"
+    ],
+    "statement_da": "Træn de store muskelgrupper regelmæssigt; mindst to ugentlige eksponeringer er et relevant mål for raske voksne.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R03",
+    "topic": "sets",
+    "evidence_type": "source_summary",
+    "source_ids": [
+      "S03",
+      "S04"
+    ],
+    "statement_da": "Antal sæt skal afhænge af mål og tolerance. 3 til 5 sæt pr. øvelse er ikke en universel regel.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R04",
+    "topic": "home_training",
+    "evidence_type": "source_summary",
+    "source_ids": [
+      "S03"
+    ],
+    "statement_da": "Hjemmetræning og elastikker kan være effektive. Prioriter faktisk tilgængeligt udstyr.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R05",
+    "topic": "exercise_replacement",
+    "evidence_type": "source_summary",
+    "source_ids": [
+      "S04"
+    ],
+    "statement_da": "Tvungen udskiftning af alle øvelser hver 4 til 6 uge er ikke nødvendig for raske voksne. Vurder progression først.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R06",
+    "topic": "run_progression",
+    "evidence_type": "source_summary",
+    "source_ids": [
+      "S06",
+      "S12"
+    ],
+    "statement_da": "Brug gradvis opstart og restitution. 30 minutters løb er ikke nødvendigvis 5 km.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R07",
+    "topic": "screening",
+    "evidence_type": "source_summary",
+    "source_ids": [
+      "S05"
+    ],
+    "statement_da": "Et positivt screeningssvar kræver relevant opfølgning, ikke automatisk en diagnose eller blanketafvisning.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R08",
+    "topic": "approval",
+    "evidence_type": "product_constraint",
+    "source_ids": [],
+    "statement_da": "Alle genererede eller ændrede programmer er kladder. Kun eksplicit godkendt version kan publiceres.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R09",
+    "topic": "equipment",
+    "evidence_type": "product_constraint",
+    "source_ids": [],
+    "statement_da": "Øvelser med manglende udstyr må ikke vælges. Alternativer skal også kontrolleres mod begrænsninger.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R10",
+    "topic": "time_budget",
+    "evidence_type": "product_constraint",
+    "source_ids": [],
+    "statement_da": "Beregn samlet tid inklusive opvarmning, udførelse, pauser, transport og skift. Afvis en plan der overskrider den aftalte tid.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R11",
+    "topic": "missing_answers",
+    "evidence_type": "product_constraint",
+    "source_ids": [],
+    "statement_da": "Manglende væsentlige oplysninger og modstridende mål giver status afventer_afklaring.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R12",
+    "topic": "pain_text",
+    "evidence_type": "proposed_safety_workflow",
+    "source_ids": [
+      "S05"
+    ],
+    "statement_da": "Fritekst og strukturerede helbredssvar skal gennemgås. Ord alene må ikke diagnosticere eller erklære en øvelse sikker.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R13",
+    "topic": "load",
+    "evidence_type": "proposed_coaching_policy",
+    "source_ids": [],
+    "statement_da": "Ingen opfundne startkilo ud fra alder eller køn. Brug kendte belastninger, teknikvurdering eller forsigtig kalibrering.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R14",
+    "topic": "effort",
+    "evidence_type": "proposed_coaching_policy",
+    "source_ids": [],
+    "statement_da": "Forklar oplevet anstrengelse og gentagelser i reserve på dansk. Værdier fastlægges af træneren for den konkrete person.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R15",
+    "topic": "progression",
+    "evidence_type": "proposed_coaching_policy",
+    "source_ids": [],
+    "statement_da": "Øg kun belastning eller mængde når gennemførsel, teknik, anstrengelse og symptomer taler for det. Ingen universel procentstigning.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R16",
+    "topic": "age_sex",
+    "evidence_type": "product_constraint",
+    "source_ids": [],
+    "statement_da": "Alder og køn er kontekst, ikke automatisk belastningsforskrift. Særlige populationer kræver relevante protokoller.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R17",
+    "topic": "hyrox",
+    "evidence_type": "product_constraint",
+    "source_ids": [
+      "S10"
+    ],
+    "statement_da": "Gem raceformat, sæson og division. Ingen konkurrencevægte før den aktuelle officielle regelbog er verificeret.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R18",
+    "topic": "privacy",
+    "evidence_type": "source_summary",
+    "source_ids": [
+      "S11"
+    ],
+    "statement_da": "Helbredsdata holdes adskilt fra den fælles vidensbank. Dokumenter behandlingsgrundlag, adgang, sletning og relevant undtagelse for følsomme data.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R19",
+    "topic": "feedback",
+    "evidence_type": "product_constraint",
+    "source_ids": [],
+    "statement_da": "Registrer gennemførsel, faktisk belastning, anstrengelse og symptomer. Forslag til ændringer kræver ny godkendelse.",
+    "status": "draft_requires_review",
+    "version": 1
+  },
+  {
+    "id": "R20",
+    "topic": "safety",
+    "evidence_type": "proposed_safety_workflow",
+    "source_ids": [],
+    "statement_da": "Ved aktuelle alvorlige symptomer må programflowet ikke opfordre til at fortsætte træning. Kliniske stop og henvisningsregler skal valideres særskilt.",
+    "status": "draft_requires_review",
+    "version": 1
+  }
+]
