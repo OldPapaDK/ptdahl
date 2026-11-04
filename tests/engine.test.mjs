@@ -11,7 +11,14 @@ test('draft honours time and gear and does not guess kilos',()=>{for(const minut
 test('blocking health text cannot approve until explicitly reviewed',()=>{const p=makeDraft({...answers,notes:'Ingen smerter i benene, men opereret ryg'},ex,inv);assert(p.flags.length>0);p.acknowledged=true;assert.equal(canApprove(p),false);p.flags.forEach(f=>f.resolved=true);assert.equal(canApprove(p),false);p.sessions.forEach(s=>s.warmup_items=[{exercise_id:'E156',duration_min:s.warmup_min}]);assert.equal(canApprove(p),true);});
 test('uncertainty, minors and running conflicts flag for clarification',()=>{assert(screenAnswers({...answers,current_symptoms:'Usikker'}).length);assert(screenAnswers({...answers,age:17}).length);assert(screenAnswers({...answers,run_ability:'Nej'}).length);});
 test('no automatic load progression in later weeks',()=>{const p=makeDraft(answers,ex,inv);assert.deepEqual(p.weeks[0].session_ids,p.weeks[11].session_ids);assert(p.weeks.every(w=>w.progression.includes('Ingen automatisk')));});
-test('no feasible exercises stops draft generation',()=>{assert.throws(()=>makeDraft({...answers,primary_goal:'Løb 5 km'},ex,[]),/ikke nok/);});
+test('missing equipment preserves an editable draft and blocks approval',()=>{
+ const p=makeDraft({...answers,primary_goal:'Løb 5 km'},ex,[]);
+ assert.equal(p.sessions.length,p.days);
+ assert(p.sessions.some(s=>s.items.length===0));
+ p.acknowledged=true;
+ p.flags.forEach(flag=>flag.resolved=true);
+ assert.equal(canApprove(p),false);
+});
 test('carry and sled blocks use time rather than repetitions',()=>{const p=makeDraft(answers,ex,[...inv,'sled','sandbag','wallball','ski']);for(const s of p.sessions)for(const x of s.items){const e=ex.find(e=>e.id===x.exercise_id);if(['carry','sled_push','sled_pull'].includes(e.movement_pattern)){assert(x.duration_min>0);assert.equal(x.reps,null);}}});
 test('mobility draft does not turn into a general strength template',()=>{const p=makeDraft({...answers,primary_goal:'Mobilitet'},ex,inv);for(const s of p.sessions)for(const x of s.items)assert.equal(ex.find(e=>e.id===x.exercise_id).category,'mobilitet');});
 test('public knowledge endpoint rejects writes before touching database',async()=>{

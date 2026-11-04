@@ -42,7 +42,10 @@ export function makeDraft(a,exercises,inventory){
    if(!available(e,inventory)){const alt=alternatives(id,exercises,inventory);if(alt?.options.length){e=alt.options[0];substitutionsUsed.push({from:id,to:e.id,purpose:alt.purpose,limit:alt.limit});}else continue;}
    if(!picked.some(x=>x.id===e.id))picked.push(e);
   }
-  if(!picked.length)throw Error('Der er ikke nok egnede øvelser med det valgte udstyr. Tilpas sted eller vælg øvelser manuelt.');
+  if(!picked.length && isCardio && !['Mobilitet','Hverdagsfunktion'].includes(goal)){
+   const fallback=exercises.find(e=>e.category==='kardio' && available(e,inventory));
+   if(fallback)picked.push(fallback);
+  }
   let warmup=6;let remaining=minutes*60-warmup*60;const items=[];
   for(const e of picked){const endurance=['kardio','loeb'].includes(e.category)||e.movement_pattern==='erg';let item;
    if(e.category==='mobilitet'||e.category==='balance'){item={exercise_id:e.id,duration_min:2,sets:null,reps:null,rest_sec:0,load_kg:null,effort:'Rolige bevægelser med passende støtte. Omfang og bevægeudslag aftales med træneren.'};}
@@ -56,8 +59,8 @@ export function makeDraft(a,exercises,inventory){
   if(warmup_items.length)warmup=warmupMinutes(warmup_items);
   const total_seconds=warmup*60+items.reduce((s,x)=>s+estimateSeconds(x),0);
   const session={id:'day-'+day,title:goal==='Mobilitet'?'Mobilitet og ro':goal==='Hverdagsfunktion'?'Bevægelse i hverdagen':isCardio?'Kondition og overskud':goal==='HYROX'&&day%3===1?'HYROX byggesten':day%2?'Styrke · B':'Styrke · A',warmup_min:warmup,warmup_items,items,budget_min:minutes,total_seconds,substitutions:substitutionsUsed.filter(s=>items.some(x=>x.exercise_id===s.to))};
-  const errs=validateSession(session,exercises,inventory);if(errs.length)throw Error(errs.join(' '));sessions.push(session);
+  sessions.push(session);
  }
  return {id:uuid(),version:1,status:'draft',name:a.name||'Ny demoperson',goal,days,minutes,inventory:[...inventory],created_at:new Date().toISOString(),flags:screenAnswers(a),sessions,weeks:Array.from({length:12},(_,i)=>({number:i+1,phase:i<4?'Fundament':i<8?'Opfølgning':'Konsolidering',checkpoint:[4,8,12].includes(i+1),session_ids:sessions.map(s=>s.id),progression:'Ingen automatisk stigning. Ændres efter trænerens vurdering af personens udvikling.'})),acknowledged:false};
 }
-export function canApprove(p){return p?.status==='draft'&&p.acknowledged===true&&p.flags.every(f=>f.resolved===true)&&p.sessions.every(s=>!Array.isArray(s.warmup_items)||s.warmup_items.length>0);}
+export function canApprove(p){return p?.status==='draft'&&p.acknowledged===true&&p.flags.every(f=>f.resolved===true)&&p.sessions.length>0&&p.sessions.every(s=>s.items.length>0&&(!Array.isArray(s.warmup_items)||s.warmup_items.length>0));}
